@@ -16,11 +16,12 @@
     right: 0;
     z-index: 10; /* If you delete this line, your menu link won't be clicked because it is behind the background. Applying this code bring the menu in front of the background */
   }
+
   
   .navbar-default .navbar-brand {
     font-family: Verdana;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 30px;
   }
   
   .navbar-default .navbar-brand:hover,
@@ -121,7 +122,7 @@
     right: 0px; /* Make the div full width */
   }
   
-  .title {
+  .titulo {
     font-family: Verdana;
     font-weight: 600;
     font-size: 60px;
@@ -175,7 +176,7 @@
   }
 
 
-  /* SERVICIOS */
+                                            /* SERVICIOS */
 
   .our-service-sass {
     background: url(https://1bp.blogspot.com/-iQC_lzn3m5M/Xcqk5qZe_MI/AAAAAAAAUA8/7MjE-2EJ18glxu5GZL8RpDOCojh9l9ZagCLcBGAsYHQ/s1600/region_map.png)
@@ -226,7 +227,7 @@
     text-align: center;
   }
   
-  /************************/
+  /************************/  
   
   .our-service-sass .inner-wrapper:after {
     content: url(../images/shape/shape-14.svg);
