@@ -1,3 +1,6 @@
+body{
+  background: #010510;
+}
 .container-fluid.main{
     position: relative; /* To make the navbar positions relative to this container */
     padding: 0;
@@ -16,12 +19,11 @@
     right: 0;
     z-index: 10; /* If you delete this line, your menu link won't be clicked because it is behind the background. Applying this code bring the menu in front of the background */
   }
-
   
   .navbar-default .navbar-brand {
     font-family: Verdana;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 20px;
   }
   
   .navbar-default .navbar-brand:hover,
@@ -175,8 +177,13 @@
     outline: none;
   }
 
-
-                                            /* SERVICIOS */
+.section-1 img{
+  width: 100%;
+}
+.section-2 img{
+  width: 100%;
+}
+  /* SERVICIOS */
 
   .our-service-sass {
     background: url(https://1bp.blogspot.com/-iQC_lzn3m5M/Xcqk5qZe_MI/AAAAAAAAUA8/7MjE-2EJ18glxu5GZL8RpDOCojh9l9ZagCLcBGAsYHQ/s1600/region_map.png)
@@ -185,7 +192,7 @@
     background-position: center;
     position: relative;
     padding: 15px 0 115px;
-    background-color: #f9f9f9;
+    background-color: #010510;
   }
   
   .theme-title-one .icon-box .icon {
@@ -227,7 +234,7 @@
     text-align: center;
   }
   
-  /************************/  
+  /************************/
   
   .our-service-sass .inner-wrapper:after {
     content: url(../images/shape/shape-14.svg);
@@ -783,3 +790,132 @@
       transform: scale(0.2);
     }
   }
+
+
+/* CARACTERISTICAS */
+
+section {
+  padding: 60px 0;
+  min-height: 100vh;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  outline: none;
+}
+
+a,
+a:active,
+a:focus {
+  color: #6f6f6f;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;
+  -ms-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-duration: .2s;
+  -ms-transition-duration: .2s;
+  -moz-transition-duration: .2s;
+  -webkit-transition-duration: .2s;
+  -o-transition-duration: .2s;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#features {
+  background: #010510;
+}
+
+#features .icon {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 4px;
+  text-align: center;
+  position: relative;
+  z-index: 1
+}
+
+#features .content-left span {
+  float: right
+}
+
+#features .content-left .text {
+  text-align: left;
+}
+
+#features .content-right span {
+  float: left
+}
+
+#features .box-item {
+  box-shadow: 0 0 12px #5300D9;
+  padding: 15px;
+  line-height: 22px;
+  margin-top: 30px;
+  border-radius: 3px;
+  background-color: #fff;
+  -webkit-transition: all .3s ease-in-out;
+  -mox-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  position: relative;
+  top: 0
+}
+
+#features .box-item .icon {
+  text-align: center;
+  margin: 12px;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear
+}
+
+#features .box-item .icon i {
+  color: #B40CF0;
+  font-size: 30px;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear
+}
+
+#features .box-item .text h4 {
+  --cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+#features .box-item .text p {
+  font-size: 14px;
+  line-height: 26px
+}
+
+#features .box-item:hover {
+  box-shadow: 0 10px 22px 10px rgba(27, 38, 49, .1)
+}
+
+#features .box-item:hover h4 {
+  color: #0B0866;
+}
+
+#features .show-box {
+  margin-top: 50px
+}
+
+#features .show-box img {
+  width: 100%
+}
