@@ -335,11 +335,11 @@ ul {
   }
   
   .our-service-sass .service-block {
-    background: #fff;
-    border: 1px solid #d663f3;
+    background: rgb(0 0 0);
+    border: 1px solid rgb(159 101 171);
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 0 12px #e105da;
+    box-shadow: rgb(137 59 134) 0px 0px 12px;
     position: relative;
     z-index: 5;
     padding: 180px 30px 25px 40px;
@@ -371,7 +371,7 @@ ul {
   .our-service-sass .service-block .title a {
     font-size: 22px;
     line-height: 32px;
-    color: #253d5f;
+    color: #0766ed;
     letter-spacing: 1px;
     position: relative;
     top: -36px;
@@ -391,7 +391,7 @@ ul {
   }
 
   .our-service-sass .service-block:hover p{
-    color: #000000;
+    color: #929292;
     font-weight: 700;
   }
   
