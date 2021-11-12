@@ -319,7 +319,7 @@ i.far{
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   position: absolute;
-  top: 47%;
+  top: 52%;
   left: 62%;
   transform: translate(-136%, -70%);
   word-spacing: 4px;
@@ -949,12 +949,10 @@ i.far{
   font-size: 35px;
   font-weight: 600;
   line-height: 60px;
+  letter-spacing: 1px;
 }
 
 #features .icon {
-  display: inline-block;
-  width: 60px;
-  height: 60px;
   border-radius: 4px;
   text-align: center;
   position: relative;
@@ -1011,7 +1009,7 @@ i.far{
 
 #features .box-item .text h4 {
   color: #E600C2;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 500;
   line-height: 22px;
   letter-spacing: 0.5px;
@@ -1023,7 +1021,7 @@ i.far{
 }
 
 #features .box-item .text p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.5px;
 }
@@ -1061,6 +1059,7 @@ i.far{
 #steps h2{
   font-size: 35px;
   font-weight: 600;
+  letter-spacing: 2px;
 }
 #steps h3{
   font-weight: 545;
@@ -1176,7 +1175,7 @@ transform: scale(0);
   line-height: 20px;
   font-size: 15px;
   font-weight: 550;
-  color: rgb(53, 101, 169);
+  color: rgb(88, 133, 196);
 }
 #plan .container .row p span{
   color: #E600C2;
