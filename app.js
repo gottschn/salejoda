@@ -11,3 +11,5 @@ animate({
   delay: index => index * 100,
   transform: ["scale(0)", "scale(1)"]
 })
+
+
