@@ -1,3 +1,16 @@
+@font-face {
+  font-family: Cano;
+  src: url('../fonts/Cano.otf');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
 body{
   background: #010510;
   min-height: 100vh;
@@ -11,6 +24,9 @@ h1, h2, h3, h4, h5{
 
 p{
   font-family: 'Jost', sans-serif;
+}
+img{
+  width: 100%;
 }
 
 section {
@@ -69,6 +85,16 @@ i.far{
   font-size: 30px;
 }
 
+/* Botón top */
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+
 /* Botón adherí tu negocio */
 .botonadd {
   background: linear-gradient(102deg, #4551b5 40%, #543fd7 60%);
@@ -121,16 +147,28 @@ i.far{
   /* ESTO ES LO NUEVO QUE AGREGUE EN EL NAV */
   .navbar-nav{
     margin: 7.5px -15px;
-    padding-top: 40px;
-    padding-left: 438px;
+    margin-top: 21px;
+    margin-left: 420px;
     font-size: 18px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     font-weight: 600;
   }
-
-  .navbar-nav li:nth-child(5){
+  .navbar-nav li a p{
     background: #000000;
     border-radius: 25px;
+    padding: 13px 13px 12px;
+    position: relative;
+    top: -12px;
+    left: auto;
+    border: 1px solid rgb(195 1 235);
+  }
+  .navbar-nav li a p:hover{
+    color: #fff;
+    background: #B40CF0;
+  }
+
+  .logo_nav{
+    width: 60%;
   }
 
   .navbar-default .navbar-nav>li>a {
@@ -308,6 +346,7 @@ i.far{
   }
   
   .titulo_nav {
+    font-family: Cano;
     font-weight: 600;
     color: #ffffff;
     text-align: center;
@@ -1058,7 +1097,18 @@ i.far{
   top: 0;
   color: #ffffff;
 }
-
+#features .box-item:hover {
+  background: rgb(121, 109, 216);
+}
+#features .box-item:hover .text h4 {
+  color: #000;
+  font-weight: 600;
+  font-family: 'Jost';
+}
+#features .box-item:hover .icon i {
+  color: rgb(233, 0, 175);
+  font-weight: 600;
+}
 #features .box-item .icon {
   text-align: center;
   margin: 12px;
@@ -1095,13 +1145,9 @@ i.far{
   letter-spacing: 0.5px;
 }
 
-#features .box-item:hover {
+/* #features .box-item:hover {
   box-shadow: 0 10px 22px 10px rgba(27, 38, 49, .1)
-}
-
-#features .box-item:hover h4 {
-  color: #E600C2;
-}
+} */
 
 #features .show-box {
   margin-top: 50px
@@ -1293,6 +1339,11 @@ transform: scale(0);
   font-size: 22px;
 }
 
+.gratis{
+  width: 100%;
+  margin-left: -46px;
+}
+
 /* BOTÓN TARJETA PLAN */
 .tarjeta .botonadd{
   background: linear-gradient(102deg, #4551b5 40%, #543fd7 60%);
@@ -1411,15 +1462,16 @@ ul {
   margin: 0px;
   padding: 0px;
 }
-
+.row-footer{
+  margin-bottom: 55px;
+}
 .footer-section {
 background: #010510;
 position: relative;
 }
 .footer-cta {
   border-bottom: 2px solid #c228e9;
-  padding-left: 104px;
-  margin-top: 50px;
+  margin-top: 8rem;
 }
 .single-cta i {
   color: #aa43bd;
@@ -1568,4 +1620,190 @@ color: #c228e9;
   font-size: 15px;
   color: rgb(135, 135, 135);
   font-weight: 600;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width:990px) {
+  .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+    margin-right: -15px;
+    margin-left: -384px;
+  }
+  .navbar-toggle .icon-bar {
+    position: relative;
+    top: -34px;
+    left: 12px;
+    display: block;
+    width: 28px;
+    height: 3px;
+    margin-top: 37px;
+    border-radius: 1px;
+  }
+  .logo_nav {
+    position: relative;
+    top: -21px;
+    left: 360px;
+    width: 38%;
+  }
+  .navbar-nav li a p {
+    border-radius: 25px;
+    padding: 13px 13px 12px;
+    position: relative;
+    top: -5px;
+    left: -3px;
+  }
+  .nav>li>a {
+    position: relative;
+    display: block;
+    left: -80px;
+    top: -20px;
+    padding: 5px 87px;
+  }
+  .titulo_nav {
+    font-size: 80px;
+    font-family: Cano;
+  }
+  .subtitle {
+    font-size: 30px;
+  }
+  .explore .btn-lg {
+    position: absolute;
+    bottom: -114px;
+    left: 30%;
+  }
+  .bounce {
+    position: absolute;
+    left: 42%;
+    bottom: -110%;
+  }
+  #separador1, #separador2, #separador3, #separador4 {
+    background-size: cover;
+    background-position: center;
+  }
+  .introduccion_1 {
+    font-size: 14px;
+    font-weight: 750;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: absolute;
+    transform: translate(-46%, -34%);
+    letter-spacing: 2px;
+    line-height: 28px;
+  }
+  .our-service-sass .main-title {
+    font-size: 34px;
+    letter-spacing: 1px;
+    text-align: -webkit-center;
+  }
+  .introduccion_2 {
+    font-size: 19px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    position: absolute;
+    transform: translate(-129%, -70%);
+    letter-spacing: 1px;
+    line-height: 36px;
+    text-align: center;
+  }
+  #features .botonadd {
+    font-size: 16px;
+    position: relative;
+    top: 52px;
+    left: 25%;
+  }
+  #features .show-box img {
+    width: 85%;
+    position: relative;
+    left: auto;
+    top: auto;
+  }
+  #steps .img-step img {
+    width: 30%;
+    position: relative;
+    left: 110px;
+    bottom: -30px;
+}
+  #steps .botonadd {
+    font-size: 17px;
+    position: relative;
+    top: 72px;
+    left: 15%;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    padding: 20px;
+  }
+  #plan .img-plan img {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    left: 68px;
+    bottom: -55px;
+  }
+  section #plan {
+    display: block;
+    height: 100%;
+  }
+  .tarjeta {
+    max-width: 300px;
+    margin: auto;
+    padding: 26px 11px 10px;
+    text-align: center;
+    position: relative;
+    transform: translate(0%, 9%);
+  }
+  details {
+    padding: 45px 70px 45px 45px;
+    margin: 0 auto;
+    position: relative;
+    font-size: 18px;
+    border: 1px solid rgb(185 15 241);
+    border-radius: 45px;
+    box-sizing: border-box;
+    transition: all .3s;
+    width: 100%;
+  }
+  summary .h4 {
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-family: 'Jost';
+  }
+  .single-cta i {
+    color: #aa43bd;
+    font-size: 29px;
+    float: left;
+    margin-top: -19px;
+    margin-left: -37px;
+  }
+  footer .botonadd {
+    border-radius: 14px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 15px 15px  15px;
+    font-family: 'Jost', sans-serif;
+    position: relative;
+    top: -10px;
+    left: auto;
+  }
+  .copyright-text p {
+    margin: 0;
+    font-size: 13px;
+    color: rgb(135, 135, 135);
+    font-weight: 600;
+  }
+  .footer-menu li a {
+    font-size: 13px;
+    color: rgb(135, 135, 135);
+    font-weight: 600;
+    position: relative;
+    top: auto;
+    left: -40px;
+  }
 }
