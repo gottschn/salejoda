@@ -34,8 +34,8 @@ img {
 }
 
 section {
-  padding: 60px 0;
-  min-height: 100vh;
+  /* padding: 60px 0; */
+  /* min-height: 100vh; */
 }
 
 a,
@@ -409,8 +409,6 @@ i.far {
   position: relative;
   display: inline-block;
   text-align: center;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -1189,7 +1187,7 @@ i.far {
   letter-spacing: 2px;
   border-radius: 25px;
   text-transform: uppercase;
-  padding: 2rem 6rem;
+ /*  padding: 2rem 6rem; */
 }
 
 #features .botonadd:hover {
@@ -1635,9 +1633,9 @@ footer .botonadd:hover {
   font-weight: 600;
 }
 
-/* RESPONSIVE */
+/*  #######################################   RESPONSIVE  ############################################*/
 
-@media (max-width: 990px) {
+@media (max-width: 1024px) {
   .container-fluid > .navbar-collapse,
   .container-fluid > .navbar-header,
   .container > .navbar-collapse,
@@ -1730,11 +1728,11 @@ footer .botonadd:hover {
     line-height: 36px;
     text-align: center;
   }
-  #features .botonadd {
+  #features .botonadd {    /* EL BOTON */
     font-size: 16px;
     position: relative;
     top: 52px;
-    left: 25%;
+    left: 33%;
   }
   #features .show-box img {
     width: 75%;
@@ -1753,14 +1751,10 @@ footer .botonadd:hover {
     visibility: hidden;
   }
   #steps .botonadd {
-    font-size: 17px;
+    font-size: 16px;
     position: relative;
-    top: 8px;
-    left: 22%;
-    font-weight: 600;
-    letter-spacing: 1px;
-    border-radius: 25px;
-    padding: 20px;
+    /* top: 52px; */ /* ?????? */
+    left: 30%;
   }
   #plan .img-plan img {
     /* width: 60%;
@@ -1848,4 +1842,9 @@ footer .botonadd:hover {
     margin-right: 4rem;
     margin-left: 4rem;
   }
+
+ 
+ 
 }
+
+
