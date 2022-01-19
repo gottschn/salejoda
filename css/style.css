@@ -84,9 +84,16 @@ i {
 }
 i.fas {
   font-size: 30px;
+  position: relative;
+  left: 0;
+  top: 21px;
 }
 i.far {
   font-size: 30px;
+  font-size: 30px;
+  position: relative;
+  left: 0;
+  top: 21px;
 }
 
 /* Botón top */
@@ -149,7 +156,7 @@ i.far {
 
 /* ESTO ES LO NUEVO QUE AGREGUE EN EL NAV */
 .navbar-nav {
-  margin: 7.5px -15px;
+  margin: 23.5px -61px;
   margin-top: 21px;
   margin-left: 420px;
   font-size: 18px;
@@ -407,11 +414,15 @@ i.far {
   margin-right: auto;
   margin-left: auto;
 }
-
+.contenedor2 {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
 .introduccion_1 {
   font-size: 30px;
-  --font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-    sans-serif;
   font-weight: 600;
   color: #ffffff;
   text-transform: uppercase;
@@ -1164,7 +1175,7 @@ i.far {
   width: 100%;
   position: relative;
   left: -30px;
-  top: 10px;
+  top: 35px;
 }
 
 #features .botonadd {
@@ -1172,13 +1183,13 @@ i.far {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   position: relative;
   top: 60px;
-  left: 550px;
+  left: 562px;
   text-decoration: none;
   font-weight: 600;
   letter-spacing: 2px;
   border-radius: 25px;
   text-transform: uppercase;
-  padding: 2rem 5rem;
+  padding: 2rem 6rem;
 }
 
 #features .botonadd:hover {
@@ -1634,6 +1645,11 @@ footer .botonadd:hover {
     margin-right: -15px;
     margin-left: -384px;
   }
+  .carousel .background {
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
   .navbar-toggle .icon-bar {
     position: relative;
     top: -34px;
@@ -1673,13 +1689,13 @@ footer .botonadd:hover {
   }
   .explore .btn-lg {
     position: absolute;
-    bottom: -114px;
+    bottom: -185px;
     left: 30%;
   }
   .bounce {
     position: absolute;
-    left: 42%;
-    bottom: -110%;
+    left: 44%;
+    bottom: -150%;
   }
   #separador1,
   #separador2,
@@ -1699,7 +1715,7 @@ footer .botonadd:hover {
     line-height: 28px;
   }
   .our-service-sass .main-title {
-    font-size: 34px;
+    font-size: 40px;
     letter-spacing: 1px;
     text-align: -webkit-center;
   }
@@ -1721,38 +1737,46 @@ footer .botonadd:hover {
     left: 25%;
   }
   #features .show-box img {
-    width: 85%;
+    width: 75%;
     position: relative;
-    left: auto;
-    top: auto;
+    transform: translate(17%, -7%);
+  }
+  #steps .container {
+    padding-right: 40px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: 20px;
+    padding-top: 55px;
+    margin-top: auto;
   }
   #steps .img-step img {
-    width: 30%;
-    position: relative;
-    left: 110px;
-    bottom: -30px;
+    visibility: hidden;
   }
   #steps .botonadd {
     font-size: 17px;
     position: relative;
-    top: 72px;
-    left: 15%;
+    top: 8px;
+    left: 22%;
     font-weight: 600;
     letter-spacing: 1px;
     border-radius: 25px;
     padding: 20px;
   }
   #plan .img-plan img {
-    width: 60%;
+    /* width: 60%;
     height: 100%;
     display: flex;
     position: relative;
     left: 68px;
-    bottom: -55px;
+    bottom: -55px; */
+    visibility: hidden;
   }
   section #plan {
     display: block;
     height: 100%;
+  }
+  #plan .row {
+    margin: auto;
   }
   .tarjeta {
     max-width: 300px;
@@ -1761,6 +1785,12 @@ footer .botonadd:hover {
     text-align: center;
     position: relative;
     transform: translate(0%, 9%);
+  }
+  .titulo-faq {
+    text-align: center;
+    font-size: 34px;
+    letter-spacing: 1px;
+    font-weight: 600;
   }
   details {
     padding: 45px 70px 45px 45px;
@@ -1771,7 +1801,7 @@ footer .botonadd:hover {
     border-radius: 45px;
     box-sizing: border-box;
     transition: all 0.3s;
-    width: 100%;
+    width: 90%;
   }
   summary .h4 {
     font-size: 18px;
