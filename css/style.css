@@ -1635,216 +1635,29 @@ footer .botonadd:hover {
 
 /*  #######################################   RESPONSIVE  ############################################*/
 
-@media (max-width: 1024px) {
-  .container-fluid > .navbar-collapse,
-  .container-fluid > .navbar-header,
-  .container > .navbar-collapse,
-  .container > .navbar-header {
-    margin-right: -15px;
-    margin-left: -384px;
-  }
-  .carousel .background {
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 100vh;
-  }
-  .navbar-toggle .icon-bar {
-    position: relative;
-    top: -34px;
-    left: 12px;
-    display: block;
-    width: 28px;
-    height: 3px;
-    margin-top: 37px;
-    border-radius: 1px;
-  }
-  .logo_nav {
-    position: relative;
-    top: -21px;
-    left: 360px;
-    width: 38%;
-  }
-  .navbar-nav li a p {
-    border-radius: 25px;
-    padding: 13px 13px 12px;
-    position: relative;
-    top: -5px;
-    left: -3px;
-  }
-  .nav > li > a {
-    position: relative;
-    display: block;
-    left: -80px;
-    top: -20px;
-    padding: 5px 87px;
-  }
-  .titulo_nav {
-    font-size: 80px;
-    font-family: Cano;
-  }
-  .subtitle {
-    font-size: 30px;
-  }
-  .explore .btn-lg {
-    position: absolute;
-    bottom: -185px;
-    left: 30%;
-  }
-  .bounce {
-    position: absolute;
-    left: 44%;
-    bottom: -150%;
-  }
-  #separador1,
-  #separador2,
-  #separador3,
-  #separador4 {
-    background-size: cover;
-    background-position: center;
-  }
-  .introduccion_1 {
-    font-size: 14px;
-    font-weight: 750;
-    color: #ffffff;
-    text-transform: uppercase;
-    position: absolute;
-    transform: translate(-46%, -34%);
-    letter-spacing: 2px;
-    line-height: 28px;
-  }
-  .our-service-sass .main-title {
-    font-size: 40px;
-    letter-spacing: 1px;
-    text-align: -webkit-center;
-  }
-  .introduccion_2 {
-    font-size: 19px;
-    font-weight: 600;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    position: absolute;
-    transform: translate(-129%, -70%);
-    letter-spacing: 1px;
-    line-height: 36px;
-    text-align: center;
-  }
-  #features .botonadd {    /* EL BOTON */
-    font-size: 16px;
-    position: relative;
-    top: 52px;
-    left: 33%;
-  }
-  #features .show-box img {
-    width: 75%;
-    position: relative;
-    transform: translate(17%, -7%);
-  }
-  #steps .container {
-    padding-right: 40px;
-    padding-left: 0px;
-    margin-right: auto;
-    margin-left: 20px;
-    padding-top: 55px;
-    margin-top: auto;
-  }
-  #steps .img-step img {
-    visibility: hidden;
-  }
-  #steps .botonadd {
-    font-size: 16px;
-    position: relative;
-    /* top: 52px; */ /* ?????? */
-    left: 30%;
-  }
-  #plan .img-plan img {
-    /* width: 60%;
-    height: 100%;
-    display: flex;
-    position: relative;
-    left: 68px;
-    bottom: -55px; */
-    visibility: hidden;
-  }
-  section #plan {
-    display: block;
-    height: 100%;
-  }
-  #plan .row {
-    margin: auto;
-  }
-  .tarjeta {
-    max-width: 300px;
-    margin: auto;
-    padding: 26px 11px 10px;
-    text-align: center;
-    position: relative;
-    transform: translate(0%, 9%);
-  }
-  .titulo-faq {
-    text-align: center;
-    font-size: 34px;
-    letter-spacing: 1px;
-    font-weight: 600;
-  }
-  details {
-    padding: 45px 70px 45px 45px;
-    margin: 0 auto;
-    position: relative;
-    font-size: 18px;
-    border: 1px solid rgb(185 15 241);
-    border-radius: 45px;
-    box-sizing: border-box;
-    transition: all 0.3s;
-    width: 90%;
-  }
-  summary .h4 {
-    font-size: 18px;
-    color: #ffffff;
-    letter-spacing: 1px;
-    line-height: 28px;
-    font-family: "Jost";
-  }
-  .single-cta i {
-    color: #aa43bd;
-    font-size: 29px;
-    float: left;
-    margin-top: -19px;
-    margin-left: -37px;
-  }
-  footer .botonadd {
-    border-radius: 14px;
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 1px;
-    padding: 15px 15px 15px;
-    font-family: "Jost", sans-serif;
-    position: relative;
-    top: -10px;
-    left: auto;
-  }
-  .copyright-text p {
-    margin: 0;
-    font-size: 13px;
-    color: rgb(135, 135, 135);
-    font-weight: 600;
-  }
-  .footer-menu li a {
-    font-size: 13px;
-    color: rgb(135, 135, 135);
-    font-weight: 600;
-    position: relative;
-    top: auto;
-    left: -40px;
-  }
-  .footer-cta {
-    margin-top: 8rem;
-    margin-right: 4rem;
-    margin-left: 4rem;
-  }
 
- 
- 
+
+ /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+@media (min-width:320px)  {
+
 }
+/* smartphones, Android phones, landscape iPhone */
+@media (min-width:480px)  { 
 
+ }
+ /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+@media (min-width:600px)  { 
 
+}
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:801px)  { 
+
+ }
+ /* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) { 
+
+ }
+ /* hi-res laptops and desktops */ 
+@media (min-width:1281px) {
+
+}
