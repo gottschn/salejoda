@@ -1400,23 +1400,23 @@ i.far {
   bottom: -25px;
 }
 
-#plan .container h2 {
+#plan .contenido_plan h2 {
   font-size: 40px;
   font-weight: 600;
   letter-spacing: 3px;
 }
 
-#plan .container h2 span {
+#plan .contenido_plan h2 span {
   color: #e600c2;
 }
 
-#plan .container p {
+#plan .contenido_plan p {
   line-height: 20px;
   font-size: 16px;
   letter-spacing: 0.5px;
   color: rgb(165 199 247);
 }
-#plan .container p span {
+#plan .contenido_plan p span {
   color: #f79be9;
 }
 
@@ -1831,14 +1831,14 @@ footer .botonadd:hover {
     display: block;
     height: 100%;
   }
-  #plan .container p {
+  #plan .contenido_plan p {
     line-height: 26px;
     font-size: 20px;
     letter-spacing: 0.5px;
     color: rgb(165 199 247);
     margin: revert;
   }
-  #plan .container h2 {
+  #plan .contenido_plan h2 {
     font-size: 40px;
     font-weight: 600;
     letter-spacing: 3px;
@@ -2078,7 +2078,7 @@ footer .botonadd:hover {
   #steps .img-step img {
     visibility: visible;
   }
-  #plan .container h2 {
+  #plan .contenido_plan h2 {
     font-size: 40px;
     font-weight: 600;
     letter-spacing: 3px;
