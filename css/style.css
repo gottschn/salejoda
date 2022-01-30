@@ -136,8 +136,8 @@ i.far {
 /* NAV */
 
 .header {
-  background-color: #3e0e6a4f;
-  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+  background-color: rgb(62 14 106 / 92%);
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 4px 0px;
   position: fixed;
   width: 100%;
   z-index: 3;
@@ -168,7 +168,7 @@ i.far {
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background: #dec6e667;
+  background: #ba46e167;
   color: #000000;
 }
 
@@ -617,7 +617,7 @@ i.far {
   overflow: hidden;
   box-shadow: rgb(255 255 255) 0px 0px 12px;
   position: relative;
-  z-index: 5;
+  z-index: 1;
   padding: 180px 30px 25px 40px;
   margin-top: 45px;
 }
@@ -1997,14 +1997,14 @@ footer .botonadd:hover {
     color: #ffffff;
     position: absolute;
     bottom: -115px;
-    left: 44%;
+    left: 42%;
     letter-spacing: 1px;
   }
   .bounce {
     -webkit-animation: bounce 2s infinite;
     animation: bounce 2s infinite;
     position: absolute;
-    left: 48%;
+    left: 47%;
     bottom: -92%;
     font-weight: 900;
     font-size: 6rem;
