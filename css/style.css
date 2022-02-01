@@ -139,7 +139,7 @@ i.far {
 /* ######################################## INICIO NAVBAR ######################################## */
 
 .header {
-  background-color: rgb(109 65 149);
+  background-color: rgb(0 0 0);
   box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 4px 0px;
   position: fixed;
   width: 100%;
@@ -172,8 +172,8 @@ i.far {
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background: #ba46e167;
-  color: #000000;
+  background: #d47cf28e;
+  color: #010510;
 }
 /* LOGO NAVBAR */
 .logox {
@@ -1889,6 +1889,9 @@ input[type="submit"]:hover {
   font-weight: 700;
   color: #ffff;
 }
+#contacto {
+  padding: 60px 0;
+}
 /* @media screen and (max-width: 600px) {
   .column,
   input[type="submit"] {
@@ -2224,14 +2227,14 @@ input[type="submit"]:hover {
     color: #ffffff;
     position: absolute;
     bottom: -115px;
-    left: 42%;
+    left: 44%;
     letter-spacing: 1px;
   }
   .bounce {
     -webkit-animation: bounce 2s infinite;
     animation: bounce 2s infinite;
     position: absolute;
-    left: 46%;
+    left: 48%;
     bottom: -92%;
     font-weight: 900;
     font-size: 6rem;
