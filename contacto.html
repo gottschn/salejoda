@@ -64,54 +64,65 @@
             <p>Presiona para abrir una ventana de chat.</p>
           </div>
           <div class="column">
-            <form action="/action_page.php">
-              <label for="fname">Nombre</label>
-              <input type="text" id="fname" name="firstname" placeholder="Escriba su nombre">
-              <label for="lname">Apellido</label>
-              <input type="text" id="lname" name="lastname" placeholder="Escriba su apellido">
-              <label for="provincias">Provincia</label>
-              <select id="provincias" name="provincias">
-                <option value="bsas">Buenos Aires</option>
-                <option value="catamarca">Catamarca</option>
-                <option value="chaco">Chaco</option>
-                <option value="chubut">Chubut</option>
-                <option value="cordoba">Córdoba</option>
-                <option value="corrientes">Corrientes</option>
-                <option value="entrerios">Entre Ríos</option>
-                <option value="formosa">Formosa</option>
-                <option value="jujuy">Jujuy</option>
-                <option value="lapampa">La Pampa</option>
-                <option value="larioja">La Rioja</option>
-                <option value="mendoza">Mendoza</option>
-                <option value="misiones">Misiones</option>
-                <option value="neuquen">Neuquén</option>
-                <option value="rionegro">Río Negro</option>
-                <option value="salta">Salta</option>
-                <option value="sanjuan">San Juan</option>
-                <option value="sanluis">San Luis</option>
-                <option value="santacruz">Santa Cruz</option>
-                <option value="bsas">Santa Fe</option>
-                <option value="santiagodelestero">Santiago del Estero</option>
-                <option value="bsas">Tierra del Fuego</option>
-                <option value="tucuman">Tucumán</option>
+            <form name="formulario-contacto" netlify>
+              <label for="name">Nombre</label>
+              <input required type="text" id="nombre" name="nombre" placeholder="Escriba su nombre">
+              <label for="apellido">Apellido</label>
+              <input type="text" id="apellido" name="apellido" placeholder="Escriba su apellido">
+              <label for="email">Correo electrónico</label>
+              <input type="text" id="email" name="email" required placeholder="Coloque su e-mail">
+              <label for="telefono">Teléfono</label>
+              <input type="text" id="telefono" name="telefono" placeholder="Coloque su número de celular">
+              <label for="provincia">Provincia</label>
+              <select id="provincia" name="provincia">
+                <option value="Buenos_Aires">Buenos Aires</option>
+                <option value="Catamarca">Catamarca</option>
+                <option value="Chaco">Chaco</option>
+                <option value="Chubut">Chubut</option>
+                <option value="Cordoba">Córdoba</option>
+                <option value="Corrientes">Corrientes</option>
+                <option value="Entre_Rios">Entre Ríos</option>
+                <option value="Formosa">Formosa</option>
+                <option value="Jujuy">Jujuy</option>
+                <option value="La_Pampa">La Pampa</option>
+                <option value="La_Rioja">La Rioja</option>
+                <option value="Mendoza">Mendoza</option>
+                <option value="Misiones">Misiones</option>
+                <option value="Neuquen">Neuquén</option>
+                <option value="Rio_Negro">Río Negro</option>
+                <option value="Salta">Salta</option>
+                <option value="San_Juan">San Juan</option>
+                <option value="San_Luis">San Luis</option>
+                <option value="Santa_Cruz">Santa Cruz</option>
+                <option value="Santa_Fe">Santa Fe</option>
+                <option value="Santiago_del_Estero">Santiago del Estero</option>
+                <option value="Tierra_del_Fuego">Tierra del Fuego</option>
+                <option value="Tucuman">Tucumán</option>
               </select>
-              <label for="ltel">Teléfono</label>
-              <input type="text" id="ltel" name="telefono" placeholder="Coloque su número de celular">
-              <label for="lcorreo">Correo electrónico</label>
-              <input type="text" id="lcorreo" name="correo" placeholder="Coloque su e-mail">
-              <label for="subject">Mensaje</label>
-              <textarea id="subject" name="subject" placeholder="Escriba su consulta por aquí y le responderemos a la brevedad..." style="height:170px"></textarea>
-              <input type="submit" value="Enviar">
+              <label for="message">Mensaje</label>
+              <textarea id="message" name="message" placeholder="Escriba su consulta por aquí y le responderemos a la brevedad..." style="height:170px"></textarea>
+              <input id="enviarCorreo" type="submit" value="Enviar">
             </form>
-          </div>+
-          6
+          </div>
         </div>
       </div>
 </section>
 
-
 </main>
-
+<script>
+    const btnEnvio = document.getElementById('enviarCorreo')
+    btnEnvio.addEventListener('click', function(e){
+        e.preventDefault();
+        const nombre = document.getElementById('nombre').value;
+        const apellido = document.getElementById('apellido').value;
+        const email = document.getElementById('email').value;
+        const telefono = document.getElementById('telefono').value;
+        const provincia = document.getElementById('provincia').value;
+        const message = document.getElementById('message').value;
+        window.location.href = `mailto:salejodaar@gmail.com?subject=SaleJoda - Contacto
+        &body=Nombre%3A%20 ${nombre}%0AApellido%3A%20 ${apellido}%0ACorreo%3A%20 ${email}%0ATel%C3%A9fono%3A%20 ${telefono}%0AProvincia%3A%20 ${provincia}%0AMensaje%3A%20 ${message}`;
+    });
+</script>
 <!----------------------------------------- INICIO DEL FOOTER/PIE DE PÁGINA ---------------------------------------->
 
 <footer class="footer-section">
@@ -218,6 +229,8 @@
         </div>
     </div>
   </footer>
+
+  
   <!----------------------------------------- FIN DEL FOOTER/PIE DE PÁGINA ------------------------------------------->
 
   <!----------------------------------------- LINKS JQUERY-BOOTSTRAP ---------------------------------------------->
