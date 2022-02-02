@@ -1913,9 +1913,45 @@ input[type="submit"]:hover {
   }
 
   .explore .btn-lg {
- 
     position: static;
-    
+  }
+  .bounce {
+    left: 40%;
+    bottom: -64%;
+  }
+
+  #plataforma .contenedor .introduccion_1 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: absolute;
+    top: 37%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    line-height: 0.9;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+  }
+
+  .bg-shape{
+    width: 80px;
+  }
+  .logo .text-center{
+    margin-bottom: 0px;   /* Text center en html ??? */
+  }
+
+      /*Espacio para lo de text center e imagenes  */
+
+  .introduccion_2 {
+    font-size: 11px;
+    top: 65%;
+    left: 62%;
+    transform: translate(-136%, -70%);
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: normal;
+  }
 }
 
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
