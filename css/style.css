@@ -1920,7 +1920,7 @@ input[type="submit"]:hover {
     bottom: -64%;
   }
 
-  #plataforma .contenedor .introduccion_1 {
+  .introduccion_1 {
     font-size: 12px;
     font-weight: 600;
     color: #ffffff;
@@ -1938,10 +1938,12 @@ input[type="submit"]:hover {
     width: 80px;
   }
   .logo .text-center{
-    margin-bottom: 0px;   /* Text center en html ??? */
+    margin-bottom: 0px;   
   }
 
-      /*Espacio para lo de text center e imagenes  */
+  #servicios{
+    padding: 10px;
+  }
 
   .introduccion_2 {
     font-size: 11px;
@@ -1951,6 +1953,77 @@ input[type="submit"]:hover {
     word-spacing: 2px;
     letter-spacing: 1px;
     line-height: normal;
+  }
+
+  .logo img {
+    width: 250px;
+  }
+  .our-service-sass{
+    padding: 0px;
+  }
+  .our-service-sass .main-title {
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .our-service-sass .service-block .title a {
+    font-size: 18px;
+    line-height: 10px;
+  }
+  .our-service-sass .service-block p {
+    font-size: 15px;
+    margin: 0px;
+    line-height: normal;
+  }
+
+  #features h2 {
+    font-size: 25px;
+    line-height: normal;
+  }
+  #features h2 span {
+    font-size: 30px;
+  }
+
+  #features .box-item .icon i {
+    top: 0px;
+  }
+  #features .box-item .text h4{
+    font-size: 20px;
+  }
+  #features .box-item .text p {
+    font-size: 12px;
+    line-height: normal;
+    margin: 0px;
+  }
+
+  #features .show-box img {
+    top: 0px;
+  }
+
+  #steps h2{
+    font-size: 25px;
+    line-height: normal;
+  }
+
+  #steps h2 span {
+    font-size: 30px;
+  }
+
+  #steps h3 {
+    letter-spacing: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* PARTE DE CREA TU CUENTA ¿? */
+
+  .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-right: 0px;
+    line-height: normal;
+  }
+  .fas {
+    top: 0px;
+
   }
 }
 
@@ -2428,8 +2501,64 @@ input[type="submit"]:hover {
 }
 /* big landscape tablets, laptops, and desktops */
 @media (min-width: 1025px) {
+  .introduccion_1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    position: absolute;
+    top: 33%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    line-height: 46px;
+  }
+  .introduccion_2 {
+    font-size: 30px;
+    --font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    position: absolute;
+    top: 49%;
+    left: 62%;
+    transform: translate(-136%, -70%);
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    line-height: 63px;
+  }
 }
 /* hi-res laptops and desktops */
 @media (min-width: 1281px) {
+  .introduccion_1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    position: absolute;
+    top: 33%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    line-height: 46px;
+  }
+  .introduccion_2 {
+    font-size: 30px;
+    --font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    position: absolute;
+    top: 49%;
+    left: 62%;
+    transform: translate(-136%, -70%);
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    line-height: 63px;
+  }
 }
 /* ######################################## FIN RESPONSIVE ######################################## */
