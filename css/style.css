@@ -2021,10 +2021,64 @@ input[type="submit"]:hover {
     padding-right: 0px;
     line-height: normal;
   }
-  .fas {
-    top: 0px;
-
+  /* PARTE STEPS :) */
+  #steps .container {
+    padding-top: 0px;
+    padding-right: 20px;
   }
+  
+  #steps p {
+    font-size: 15px;
+  }
+
+  .col-sm-4 h3 a {
+    padding: 0px;
+    font-size: 24px;
+  }
+
+  #steps .img-step img {
+    width: 35%;
+    left: 90px;
+  }
+
+  #plan {
+    padding: 0px;
+  }
+
+  #plan .contenido_plan p {
+    font-size: 14px;
+  }
+
+  #plan .img-plan img {
+    width: 50%;
+  }
+
+  .titulo-faq {
+    font-size: 30px;
+    margin-top: 40px;
+  }
+
+  /* PARTE FAQ */
+
+  .detail {
+    width: 100%;
+  }
+
+  .cta-text{
+    padding-left: 35px;
+  }
+
+
+  /* COPYRIGHT PA */
+
+  .copyright-text p {
+    font-size: 13px;
+  }
+
+  .footer-menu li a{
+    font-size: 12px;
+  }
+
 }
 
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
