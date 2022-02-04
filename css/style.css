@@ -1902,7 +1902,10 @@ input[type="submit"]:hover {
 /*  #######################################  INICIO RESPONSIVE  #####*/
 
 @media (min-width: 280px){
-  
+  .logox{
+    width: 30%;
+    padding: 10px 10px;
+  }
   .titulo_nav {
     font-size: 53px;
     font-family: Cano;
@@ -2086,9 +2089,9 @@ input[type="submit"]:hover {
   .logox {
     display: block;
     float: left;
-    width: 25%;
+    width: 30%;
     height: 100%;
-    padding: 16px 18px;
+    padding: 10px 15px;
   }
   .header .menu-btn:checked ~ .menu {
     max-height: 100vh;
@@ -2110,21 +2113,20 @@ input[type="submit"]:hover {
     height: 100vh;
   }
   .titulo_nav {
-    font-size: 80px;
+    font-size: 60px;
     font-family: Cano;
   }
   .subtitle {
-    font-size: 30px;
+    font-size: 25px;
   }
   .explore .btn-lg {
     position: absolute;
-    bottom: -185px;
-    left: 30%;
+    left: 25%;
   }
   .bounce {
     position: absolute;
-    left: 44%;
-    bottom: -150%;
+    left: 40%;
+    bottom: -140%;
   }
   #separador1,
   #separador2,
@@ -2134,29 +2136,29 @@ input[type="submit"]:hover {
     background-position: center;
   }
   .introduccion_1 {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
     color: #ffffff;
     text-transform: uppercase;
     position: absolute;
     transform: translate(-46%, -34%);
-    letter-spacing: 2px;
-    line-height: 25px;
+    letter-spacing: 1px;
+    line-height: normal;
   }
   .our-service-sass .main-title {
-    font-size: 40px;
+    font-size: 35px;
     letter-spacing: 1px;
     text-align: -webkit-center;
   }
   .introduccion_2 {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     position: absolute;
     transform: translate(-132%, -65%);
     letter-spacing: 1px;
-    line-height: 36px;
+    line-height: normal;
     text-align: center;
   }
   .tarjeta {
@@ -2182,19 +2184,19 @@ input[type="submit"]:hover {
     margin: revert;
   }
   #plan .contenido_plan h2 {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 600;
     letter-spacing: 3px;
     text-align: center;
   }
   #features {
-    padding: 60px 0;
+    padding: 0px 0;
   }
   #features .botonadd {
-    font-size: 16px;
+    font-size: 14px;
     position: relative;
     top: 52px;
-    left: 15%;
+    left: 8%;
   }
   #features .show-box img {
     width: 75%;
@@ -2202,7 +2204,7 @@ input[type="submit"]:hover {
     transform: translate(17%, -15%);
   }
   #steps {
-    padding: 60px 0;
+    padding: 0px 0;
   }
   #steps .container {
     padding-right: 40px;
@@ -2218,8 +2220,8 @@ input[type="submit"]:hover {
   #steps .botonadd {
     font-size: 17px;
     position: relative;
-    top: 8px;
-    left: 22%;
+    top: 0px;
+    left: 13%;
     font-weight: 600;
     letter-spacing: 1px;
     border-radius: 25px;
