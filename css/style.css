@@ -2487,6 +2487,20 @@ input[type="submit"]:hover {
 
 /* 48em = 768px */
 @media (min-width: 48em) {
+
+  /* Default para header pc */
+
+  .header .menu-icon .navicon {
+    background: #fff;
+    display: block;
+    height: 3px;
+    position: relative;
+    bottom: -37px;
+    left: -15px;
+    transition: background 0.2s ease-out;
+    width: 26px;
+  }
+  
   .header li {
     float: left;
   }
@@ -2501,6 +2515,114 @@ input[type="submit"]:hover {
   .header .menu-icon {
     display: none;
   }
+
+
+  .header ul {
+    margin-right: 0px;
+    font-size: 12px;
+  }
+
+  /*  HEADER */
+
+  .logox {
+    width: 11%;
+    padding: 15px 10px;
+  }
+
+  .titulo_nav {
+    font-size: 100px;
+    font-family: Cano;
+  }
+
+  .subtitle {
+    font-size: 35px;
+  }
+
+  .explore .btn-lg {
+    left: 38%;
+  }
+
+  .bounce {
+    position: absolute;
+    left: 45%;
+    bottom: -100%;
+  }
+
+  .introduccion_1 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: normal;
+    transform: translate(-50%, -70%);
+  }
+
+  .bg-shape {
+    width: 80px;
+  }
+
+
+  .logo {
+    margin-bottom: 0px;
+  }
+
+  .logo img {
+    width: 300px;
+  }
+
+  .our-service-sass .main-title {
+    font-size: 25px;
+  }
+
+  .service-block .icon-img {
+    width: 200px;
+    left: 250px;
+  }
+
+  .our-service-sass .service-block .title a {
+    font-size: 34px;
+    line-height: 10px;
+  }
+
+  .our-service-sass .service-block p {
+    font-size: 18px;
+    margin: 0px;
+    line-height: normal;
+  }
+
+  .introduccion_2 {
+    font-size: 23px;
+    letter-spacing: 1px;
+    line-height: normal;
+    transform: translate(-136%, -125%);
+  }
+
+  #features h2 {
+    font-size: 35px;
+    line-height: normal;
+  }
+
+  #features .show-box img {
+    width: 70%;
+    position: relative;
+    transform: translate(14%, -5%);
+  }
+
+  #features .box-item .text h4 {
+    font-size: 35px;
+  }
+
+  #features .box-item .text p {
+    font-size: 18px;
+    line-height: normal;
+    margin: 0px;
+  }
+
+  #features .botonadd {
+    font-size: 20px;
+    top: 52px;
+    left: 32%;
+  }
+
+  
 }
 
 /* tablet, landscape iPad, lo-res laptops ands desktops */
