@@ -2600,6 +2600,10 @@ input[type="submit"]:hover {
     line-height: normal;
   }
 
+  #features h2 span {
+    font-size: 35px;
+  }
+
   #features .show-box img {
     width: 70%;
     position: relative;
@@ -2616,13 +2620,98 @@ input[type="submit"]:hover {
     margin: 0px;
   }
 
+  #features .botonadd:hover {
+    font-size: 22px;
+  }
+
   #features .botonadd {
     font-size: 20px;
     top: 52px;
     left: 32%;
   }
 
-  
+  #steps h2 {
+    font-size: 35px;
+  }
+
+  #steps h2 span {
+    font-size: 35px;
+  }
+
+
+  .col-sm-4 h3 a {
+    padding: 0px;
+    font-size: 30px;
+  }
+
+  .col-sm-4 h3 a {
+    line-height: normal;
+  }
+
+  #steps p {
+    font-size: 16px;
+    margin: 0px;
+  }
+
+  #steps .botonadd {
+    font-size: 20px;
+    top: 52px;
+    left: 32%;
+  }
+
+  #steps .botonadd:hover {
+    font-size: 22px;
+  }
+
+  #plan .contenido_plan h2 {
+    font-size: 35px;
+  }
+  #plan .contenido_plan p {
+    line-height: 18px;
+    font-size: 20px;
+  }
+
+  .titulo-faq {
+    font-size: 50px;
+  }
+  .detail {
+    width: 100%;
+  }
+
+  .cta-text {
+    padding-left: 35px;
+    bottom: 20px;
+  }
+
+  .footer-logo img {
+    max-width: 300px;
+  }
+
+  .footer-text p {
+    font-size: 18px;
+    line-height: normal;
+  }
+
+  .footer-social-icon span {
+    font-size: 25px;
+  }
+
+  .footer-widget-heading h3 {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  }
+
+  footer .botonadd {
+    font-size: 20px;
+  }
+  .copyright-text p {
+    font-size: 18px;
+  }
+  .footer-menu li a {
+    font-size: 16px;
+    left: 200px;
+  }
 }
 
 /* tablet, landscape iPad, lo-res laptops ands desktops */
