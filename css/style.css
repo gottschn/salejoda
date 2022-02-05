@@ -2489,7 +2489,6 @@ input[type="submit"]:hover {
 @media (min-width: 48em) {
 
   /* Default para header pc */
-
   .header .menu-icon .navicon {
     background: #fff;
     display: block;
@@ -2716,19 +2715,47 @@ input[type="submit"]:hover {
 
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width: 801px) {
+
+  .header .menu-icon .navicon {
+    background: #fff;
+    display: block;
+    height: 3px;
+    position: relative;
+    bottom: -37px;
+    left: -15px;
+    transition: background 0.2s ease-out;
+    width: 26px;
+  }
+  
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+
+
+  .header ul {
+    margin-right: 0px;
+    font-size: 13px;
+  }
+
+
+  /* Codigo despues del NAV */
   .logox {
     display: block;
     float: left;
-    width: 8%;
+    width: 13%;
     height: 100%;
     padding: 10px 20px;
-  }
-  .header li a {
-    display: block;
-    padding: 22px;
-    border-right: 2px solid rgb(129 50 233);
-    text-decoration: none;
-    font-size: 19px;
   }
   .titulo_nav {
     font-family: Cano;
