@@ -2838,6 +2838,7 @@ input[type="submit"]:hover {
   #features .botonadd {
     font-size: 16px;
     top: 60px;
+    left: 35%;
     
   }
 
@@ -2852,7 +2853,7 @@ input[type="submit"]:hover {
   #steps .botonadd {
     font-size: 20px;
     top: 5px;
-
+    left: 35%;
   }
   #steps .container {
     padding-right: 40px;
@@ -2911,7 +2912,7 @@ input[type="submit"]:hover {
   footer .botonadd {
     font-size: 20px;
   }
-  
+
   .copyright-text p {
     font-size: 18px;
   }
@@ -2961,34 +2962,160 @@ input[type="submit"]:hover {
 }
 /* big landscape tablets, laptops, and desktops */
 @media (min-width: 1025px) {
+
+  .header .menu-icon .navicon {
+    background: #fff;
+    display: block;
+    height: 3px;
+    position: relative;
+    bottom: -37px;
+    left: -15px;
+    transition: background 0.2s ease-out;
+    width: 26px;
+  }
+  
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+
+
+  .header ul {
+    margin-right: 0px;
+    font-size: 19px;
+  }
+
+  /* Codigo despues del NAV */
+
+
+  .logox {
+    display: block;
+    float: left;
+    width: 11%;
+    height: 100%;
+    padding: 10px 24px;
+  }
+  .titulo_nav {
+    font-size: 160px;
+  }
+  .covertext {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    right: 0px;
+  }
+  .subtitle {
+    font-size: 50px;
+  }
+  
+  .explore .btn-lg {
+    font-family: "Jost", sans-serif;
+    border-radius: 49px;
+    padding: 15px 25px;
+    font-size: 30px;
+    bottom: -80px;
+    left: 40%;
+
+  }
+
+  .bounce {
+    position: absolute;
+    left: 46%;
+    bottom: -55%;
+  }
+
   .introduccion_1 {
     font-size: 30px;
     font-weight: 600;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     position: absolute;
-    top: 33%;
+    top: 26%;
     left: 63%;
     transform: translate(-50%, -50%);
     word-spacing: 3px;
     letter-spacing: 3px;
-    line-height: 46px;
+    line-height: normal;
   }
+
+  .logo img {
+    width: 350px;
+  }
+
+  .our-service-sass .main-title {
+    font-size: 26px;
+  }
+
+  .service-block .icon-img {
+    width: 200px;
+    left: 350px;
+  }
+
+  .our-service-sass .service-block .title a {
+    font-size: 36px;
+    line-height: 10px;
+  }
+
+  .our-service-sass .service-block p {
+    font-size: 20px;
+    margin: 0px;
+    line-height: normal;
+  }
+
   .introduccion_2 {
-    font-size: 30px;
-    --font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
-    font-weight: 600;
+    font-size: 28px;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     position: absolute;
-    top: 49%;
+    top: 36%;
     left: 62%;
     transform: translate(-136%, -70%);
-    word-spacing: 4px;
+    word-spacing: 1px;
     letter-spacing: 1px;
-    line-height: 63px;
+    line-height: normal;
   }
+
+  #features h2 {
+    font-size: 35px;
+    line-height: normal;
+  }
+
+  #features h2 span {
+    font-size: 35px;
+  }
+
+  #features .box-item .text h4 {
+    font-size: 35px;
+  }
+
+  #features .box-item .text p {
+    font-size: 18px;
+    line-height: normal;
+    margin: 0px;
+  }
+
+  #features .show-box img {
+    width: 70%;
+    position: relative;
+    transform: translate(14%, -5%);
+  }
+
+  #features .botonadd {
+    font-size: 20px;
+    top: 52px;
+    left: 38%;
+  }
+  
 }
 /* hi-res laptops and desktops */
 @media (min-width: 1281px) {
