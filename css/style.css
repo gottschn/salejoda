@@ -3215,19 +3215,108 @@ input[type="submit"]:hover {
 }
 /* hi-res laptops and desktops */
 @media (min-width: 1281px) {
+  .header .menu-icon .navicon {
+    background: #fff;
+    display: block;
+    height: 3px;
+    position: relative;
+    bottom: -37px;
+    left: -15px;
+    transition: background 0.2s ease-out;
+    width: 26px;
+  }
+
+  .header {
+    height: 12%;
+  }
+  
+  
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+
+
+  .header ul {
+    margin-right: 0px;
+    font-size: 25px;
+  }
+
+  /* Codigo despues del NAV */
+
+
+  .logox {
+    display: block;
+    float: left;
+    width: 9%;
+    height: 100%;
+    padding: 10px 24px;
+  }
+
+  .titulo_nav {
+    font-size: 180px;
+  }
+
+  .subtitle {
+    font-size: 55px;
+  }
+
+
+  .explore .btn-lg {
+    font-family: "Jost", sans-serif;
+    border-radius: 49px;
+    padding: 15px 25px;
+    font-size: 30px;
+    bottom: -80px;
+    left: 43%;
+  }
+
+  .bounce {
+    position: absolute;
+    left: 48%;
+    bottom: -55%;
+  }
+  
   .introduccion_1 {
     font-size: 30px;
     font-weight: 600;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     position: absolute;
-    top: 33%;
+    top: 20%;
     left: 63%;
     transform: translate(-50%, -50%);
     word-spacing: 3px;
     letter-spacing: 3px;
-    line-height: 46px;
+    line-height: normal;
   }
+
+  .bg-shape {
+    width: 85px;
+  }
+
+  .logo img {
+    width: 380px;
+  }
+  .our-service-sass .main-title {
+    font-size: 28px;
+  }
+
+  .service-block .icon-img {
+    width: 175px;
+    left: 100px;
+  }
+  
   .introduccion_2 {
     font-size: 30px;
     --font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
