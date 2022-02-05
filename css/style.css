@@ -2712,7 +2712,7 @@ input[type="submit"]:hover {
     left: 200px;
   }
 }
-
+/* ####################            RESOLUCION 801 ########################### */
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width: 801px) {
 
@@ -2788,75 +2788,71 @@ input[type="submit"]:hover {
     color: #ffffff;
     position: absolute;
     bottom: -115px;
-    left: 44%;
+    left: 40%;
     letter-spacing: 1px;
   }
   .bounce {
-    -webkit-animation: bounce 2s infinite;
-    animation: bounce 2s infinite;
     position: absolute;
-    left: 48%;
-    bottom: -92%;
-    font-weight: 900;
-    font-size: 6rem;
+    left: 47%;
+    bottom: -100%;
   }
   .introduccion_1 {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 600;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     position: absolute;
-    top: 33%;
+    top: 30%;
     left: 63%;
     transform: translate(-50%, -50%);
     word-spacing: 3px;
     letter-spacing: 3px;
-    line-height: 46px;
+    line-height: normal;
   }
   .introduccion_2 {
-    font-size: 30px;
-    --font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
-    font-weight: 600;
+    font-size: 24px;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     position: absolute;
-    top: 49%;
+    top: 40%;
     left: 62%;
     transform: translate(-136%, -70%);
     word-spacing: 4px;
     letter-spacing: 1px;
-    line-height: 63px;
+    line-height: normal;    
+  }
+
+  #features h2 {
+    font-size: 35px;
+    line-height: normal;
   }
   #features .show-box img {
-    width: 100%;
+    width: 70%;
     position: relative;
-    left: -105px;
-    top: 125px;
+    transform: translate(14%, -5%);
   }
+  #features .box-item .text h4 {
+    font-size: 35px;
+  }
+
   #features .botonadd {
     font-size: 16px;
-    font-family: Roboto, Arial, Helvetica, sans-serif;
-    position: relative;
     top: 60px;
-    left: 535px;
-    text-decoration: none;
-    font-weight: 600;
-    letter-spacing: 2px;
-    border-radius: 25px;
-    text-transform: uppercase;
-    /* padding: 2rem 6rem; */
+    
   }
+
+  #steps h2 {
+    font-size: 35px;
+  }
+
+  .col-sm-4 h3 a {
+    line-height: normal;
+  }
+
   #steps .botonadd {
-    font-size: 16px;
-    font-family: Roboto, Arial, Helvetica, sans-serif;
-    position: relative;
+    font-size: 20px;
     top: 5px;
-    left: 542px;
-    text-decoration: none;
-    font-weight: 600;
-    letter-spacing: 1px;
-    border-radius: 25px;
+
   }
   #steps .container {
     padding-right: 40px;
@@ -2867,17 +2863,63 @@ input[type="submit"]:hover {
     margin-top: auto;
   }
   #steps .img-step img {
-    visibility: visible;
+    visibility: hidden;
   }
   #plan .contenido_plan h2 {
     font-size: 40px;
     font-weight: 600;
-    letter-spacing: 3px;
-    text-align: inherit;
+    letter-spacing: 1px;
+  }
+  #plan .contenido_plan p {
+    line-height: 1;
+    font-size: 20px;
   }
   #plan .img-plan img {
+    left: 30%;
     visibility: visible;
   }
+  .titulo-faq {
+    font-size: 50px;
+  }
+
+  #faq {
+    padding: 0px 0;
+  }
+
+  .cta-text {
+    padding-left: 35px;
+    bottom: 20px;
+  }
+
+  .footer-logo img {
+    max-width: 300px;
+  }
+  .footer-text p {
+    font-size: 18px;
+    line-height: normal;
+  }
+  .footer-social-icon span {
+    font-size: 25px;
+  }
+
+  .footer-widget-heading h3 {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  }
+
+  footer .botonadd {
+    font-size: 20px;
+  }
+  
+  .copyright-text p {
+    font-size: 18px;
+  }
+  .footer-menu li a {
+    font-size: 16px;
+    left: 200px;
+  }
+
   .tarjeta {
     box-shadow: 0 4px 15px 0 rgb(255 0 200 / 70%);
     max-width: 300px;
