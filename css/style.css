@@ -93,6 +93,7 @@ i.fas {
 }
 i.far {
   font-size: 30px;
+  font-size: 30px;
   position: relative;
   left: 0;
   top: 21px;
@@ -174,6 +175,7 @@ i.far {
   background: #d47cf28e;
   color: #010510;
 }
+
 /* LOGO NAVBAR */
 .logox {
   display: block;
@@ -651,7 +653,7 @@ i.far {
 }
 
 .our-service-sass .service-block .title a {
-  font-size: 28px;
+  font-size: 27px;
   font-weight: 600;
   line-height: 32px;
   color: #5f9aed;
@@ -1439,7 +1441,7 @@ i.far {
   position: absolute;
   transform: translate(285%, -60%);
 }
-.tarjeta h1 {
+.tarjeta h2 {
   letter-spacing: 1px;
 }
 .price {
@@ -1891,206 +1893,10 @@ input[type="submit"]:hover {
 #contacto {
   padding: 60px 0;
 }
-/* @media screen and (max-width: 600px) {
-  .column,
-  input[type="submit"] {
-    width: 100%;
-    margin-top: 0;
-  }
-} */
-/*  #######################################  INICIO RESPONSIVE  #####*/
 
-@media (min-width: 280px){
-  .logox{
-    width: 30%;
-    padding: 10px 10px;
-  }
-  .titulo_nav {
-    font-size: 53px;
-    font-family: Cano;
-  }
+/*  #######################################  INICIO RESPONSIVE  ############################################*/
 
-  .subtitle {
-    font-size: 24px;
-  }
-
-  .explore .btn-lg {
-    position: static;
-  }
-  .bounce {
-    left: 40%;
-    bottom: -64%;
-  }
-
-  .introduccion_1 {
-    font-size: 12px;
-    font-weight: 600;
-    color: #ffffff;
-    text-transform: uppercase;
-    position: absolute;
-    top: 37%;
-    left: 63%;
-    transform: translate(-50%, -50%);
-    line-height: 0.9;
-    letter-spacing: 1px;
-    word-spacing: 0px;
-  }
-
-  .bg-shape{
-    width: 80px;
-  }
-  .logo .text-center{
-    margin-bottom: 0px;   
-  }
-
-  #servicios{
-    padding: 10px;
-  }
-
-  .introduccion_2 {
-    font-size: 11px;
-    top: 65%;
-    left: 62%;
-    transform: translate(-136%, -70%);
-    word-spacing: 2px;
-    letter-spacing: 1px;
-    line-height: normal;
-  }
-
-  .logo img {
-    width: 250px;
-  }
-  .our-service-sass{
-    padding: 0px;
-  }
-  .our-service-sass .main-title {
-    font-size: 25px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  .our-service-sass .service-block .title a {
-    font-size: 18px;
-    line-height: 10px;
-  }
-  .our-service-sass .service-block p {
-    font-size: 15px;
-    margin: 0px;
-    line-height: normal;
-  }
-
-  #features h2 {
-    font-size: 25px;
-    line-height: normal;
-  }
-  #features h2 span {
-    font-size: 30px;
-  }
-
-  #features .box-item .icon i {
-    top: 0px;
-  }
-  #features .box-item .text h4{
-    font-size: 20px;
-  }
-  #features .box-item .text p {
-    font-size: 12px;
-    line-height: normal;
-    margin: 0px;
-  }
-
-  #features .show-box img {
-    top: 0px;
-  }
-
-  #steps h2{
-    font-size: 25px;
-    line-height: normal;
-  }
-
-  #steps h2 span {
-    font-size: 30px;
-  }
-
-  #steps h3 {
-    letter-spacing: normal;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-
-  /* PARTE DE CREA TU CUENTA ¿? */
-
-  .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
-    padding-right: 0px;
-    line-height: normal;
-  }
-  /* PARTE STEPS :) */
-  #steps .container {
-    padding-top: 0px;
-    padding-right: 20px;
-  }
-  
-  #steps p {
-    font-size: 15px;
-  }
-
-  .col-sm-4 h3 a {
-    padding: 0px;
-    font-size: 24px;
-  }
-
-  #steps .img-step img {
-    width: 35%;
-    left: 90px;
-  }
-
-  #plan {
-    padding: 0px;
-  }
-
-  #plan .contenido_plan p {
-    font-size: 14px;
-  }
-
-  #plan .img-plan img {
-    width: 50%;
-  }
-
-  .titulo-faq {
-    font-size: 30px;
-    margin-top: 40px;
-  }
-
-  /* PARTE FAQ */
-
-  .detail {
-    width: 100%;
-  }
-
-  .cta-text{
-    padding-left: 35px;
-  }
-
-
-  /* COPYRIGHT PA */
-
-  .copyright-text p {
-    font-size: 13px;
-  }
-
-  .footer-menu li {
-    margin-left: 0px;
-  }
-
-  .footer-menu li a {
-    font-size: 12px;
-
-  }
-
-  .text-right {
-    text-align: center;
-    display: inline-block;
-  }
-
+@media (min-width: 280px) {
 }
 
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
@@ -2098,9 +1904,9 @@ input[type="submit"]:hover {
   .logox {
     display: block;
     float: left;
-    width: 30%;
+    width: 25%;
     height: 100%;
-    padding: 10px 15px;
+    padding: 16px 18px;
   }
   .header .menu-btn:checked ~ .menu {
     max-height: 100vh;
@@ -2109,33 +1915,27 @@ input[type="submit"]:hover {
     font-family: "Jost";
     font-size: 25px;
   }
-  .container-fluid > .navbar-collapse,
-  .container-fluid > .navbar-header,
-  .container > .navbar-collapse,
-  .container > .navbar-header {
-    margin-right: -15px;
-    margin-left: -384px;
-  }
   .carousel .background {
     background-position: center center;
     background-repeat: no-repeat;
     height: 100vh;
   }
   .titulo_nav {
-    font-size: 60px;
+    font-size: 80px;
     font-family: Cano;
   }
   .subtitle {
-    font-size: 25px;
+    font-size: 30px;
   }
   .explore .btn-lg {
     position: absolute;
-    left: 25%;
+    bottom: -185px;
+    left: 30%;
   }
   .bounce {
     position: absolute;
-    left: 40%;
-    bottom: -140%;
+    left: 44%;
+    bottom: -150%;
   }
   #separador1,
   #separador2,
@@ -2145,29 +1945,29 @@ input[type="submit"]:hover {
     background-position: center;
   }
   .introduccion_1 {
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 600;
     color: #ffffff;
     text-transform: uppercase;
     position: absolute;
     transform: translate(-46%, -34%);
-    letter-spacing: 1px;
-    line-height: normal;
+    letter-spacing: 2px;
+    line-height: 25px;
   }
   .our-service-sass .main-title {
-    font-size: 35px;
+    font-size: 40px;
     letter-spacing: 1px;
     text-align: -webkit-center;
   }
   .introduccion_2 {
-    font-size: 13px;
+    font-size: 19px;
     font-weight: 600;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     position: absolute;
     transform: translate(-132%, -65%);
     letter-spacing: 1px;
-    line-height: normal;
+    line-height: 36px;
     text-align: center;
   }
   .tarjeta {
@@ -2193,19 +1993,19 @@ input[type="submit"]:hover {
     margin: revert;
   }
   #plan .contenido_plan h2 {
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 600;
     letter-spacing: 3px;
     text-align: center;
   }
   #features {
-    padding: 0px 0;
+    padding: 60px 0;
   }
   #features .botonadd {
-    font-size: 14px;
+    font-size: 16px;
     position: relative;
     top: 52px;
-    left: 8%;
+    left: 15%;
   }
   #features .show-box img {
     width: 75%;
@@ -2213,7 +2013,7 @@ input[type="submit"]:hover {
     transform: translate(17%, -15%);
   }
   #steps {
-    padding: 0px 0;
+    padding: 60px 0;
   }
   #steps .container {
     padding-right: 40px;
@@ -2229,8 +2029,8 @@ input[type="submit"]:hover {
   #steps .botonadd {
     font-size: 17px;
     position: relative;
-    top: 0px;
-    left: 13%;
+    top: 8px;
+    left: 22%;
     font-weight: 600;
     letter-spacing: 1px;
     border-radius: 25px;
@@ -2301,27 +2101,7 @@ input[type="submit"]:hover {
     margin-right: 4rem;
     margin-left: 4rem;
   }
-
-  .footer-menu li a {
-    font-size: 12px;
-    left: 0px;
-  }
-
-  .text-right {
-    text-align: center;
-    display: inline-block;
-  }
-
-
-
-  /* RESPONSIVE CONTACTO */
-
-
-  /* .column,
-  input[type="submit"] {
-    width: 100%;
-    margin-top: 0;
-  } */
+  /* RESPONSIVE CONTACTO 320px */
   .container_contact {
     border-radius: 30px;
     background-color: #1c187e;
@@ -2366,366 +2146,77 @@ input[type="submit"]:hover {
   }
 }
 
-/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-@media (min-width: 600px) {
+/* TABLETS */
+@media (min-width: 768px) {
   .logox {
-    display: block;
-    float: left;
-    width: 15%;
-    height: 100%;
-    padding: 10px 15px;
+    width: 17%;
   }
-
   .explore .btn-lg {
-    left: 38%;
-  }
-
-  .bounce {
     position: absolute;
-    left: 48%;
-    bottom: -140%;
-  }
-
-  .introduccion_1 {
-    font-size: 20px;
-    letter-spacing: 1px;
-    line-height: normal;
-    transform: translate(-50%, -50%);
-  }
-
-  .introduccion_2 {
-    font-size: 20px;
-    letter-spacing: 1px;
-    line-height: normal;
-    top: 57%;
-    transform: translate(-136%, -70%);
-  }
-
-  #features h2 {
-    font-size: 26px;
-    line-height: normal;
-  }
-
-  #features .show-box img {
-    width: 75%;
-    position: relative;
-    transform: translate(14%, -15%);
-  }
-
-  #features .box-item .text h4 {
-    font-size: 30px;
-  }
-
-  #features .box-item .text p {
-    font-size: 15px;
-    line-height: normal;
-    margin: 0px;
-  }
-
-  #features .botonadd {
-    font-size: 17px;
-    position: relative;
-    top: 52px;
-    left: 28%;
-  }
- 
-  #steps h2 {
-    font-size: 27px;
-    line-height: normal;
-  }
-
-  #steps .botonadd {
-    font-size: 17px;
-    position: relative;
-    top: 0px;
-    left: 30%;
-    font-weight: 600;
-    letter-spacing: 1px;
-    border-radius: 25px;
-    padding: 20px;
-  }
-
-  /* PARTE FAQ */
-
-  #faq {
-    padding: 0px 0;
-  }
-
-  .titulo-faq {
-    text-align: center;
-    font-size: 40px;
-    letter-spacing: 1px;
-    font-weight: 600;
-  }
-
-  .cta-text {
-    padding-left: 35px;
-    bottom: 20px;
-  }
-
-  /* Footer */
-
-  .footer-text p {
-    font-size: 15px;
-    line-height: normal;
-  }
-
-  .copyright-text p {
-    font-size: 15px;
-  }
-
-  .footer-menu li a {
-    font-size: 15px;
-    left: 100px;
-  }
-
-  .text-right {
-    text-align: center;
-  }
-}
-
-/* 48em = 768px */
-@media (min-width: 48em) {
-
-  /* Default para header pc */
-  .header .menu-icon .navicon {
-    background: #fff;
-    display: block;
-    height: 3px;
-    position: relative;
-    bottom: -37px;
-    left: -15px;
-    transition: background 0.2s ease-out;
-    width: 26px;
-  }
-  
-  .header li {
-    float: left;
-  }
-  .header li a {
-    padding: 20px 30px;
-  }
-  .header .menu {
-    clear: none;
-    float: right;
-    max-height: none;
-  }
-  .header .menu-icon {
-    display: none;
-  }
-
-
-  .header ul {
-    margin-right: 0px;
-    font-size: 12px;
-  }
-
-  /*  HEADER */
-
-  .logox {
-    width: 11%;
-    padding: 15px 10px;
-  }
-
-  .titulo_nav {
-    font-size: 100px;
-    font-family: Cano;
-  }
-
-  .subtitle {
-    font-size: 35px;
-  }
-
-  .explore .btn-lg {
+    bottom: -105px;
     left: 38%;
   }
-
   .bounce {
     position: absolute;
     left: 45%;
-    bottom: -100%;
+    bottom: -102%;
   }
-
   .introduccion_1 {
-    font-size: 25px;
-    letter-spacing: 1px;
-    line-height: normal;
-    transform: translate(-50%, -70%);
+    font-size: 18px;
+    position: absolute;
+    transform: translate(-49%, -45%);
+    line-height: 29px;
   }
-
-  .bg-shape {
-    width: 80px;
-  }
-
-
-  .logo {
-    margin-bottom: 0px;
-  }
-
-  .logo img {
-    width: 300px;
-  }
-
-  .our-service-sass .main-title {
-    font-size: 25px;
-  }
-
-  .service-block .icon-img {
-    width: 200px;
-    left: 250px;
-  }
-
   .our-service-sass .service-block .title a {
-    font-size: 34px;
-    line-height: 10px;
+    font-size: 32px;
   }
-
   .our-service-sass .service-block p {
-    font-size: 18px;
-    margin: 0px;
-    line-height: normal;
+    font-size: 17px;
   }
-
   .introduccion_2 {
-    font-size: 23px;
-    letter-spacing: 1px;
-    line-height: normal;
-    transform: translate(-136%, -125%);
+    font-size: 17px;
+    position: absolute;
+    transform: translate(-136%, -73%);
   }
-
-  #features h2 {
-    font-size: 35px;
-    line-height: normal;
-  }
-
-  #features h2 span {
-    font-size: 35px;
-  }
-
   #features .show-box img {
-    width: 70%;
+    width: 60%;
     position: relative;
-    transform: translate(14%, -5%);
+    left: 20px;
+    top: 50px;
   }
-
-  #features .box-item .text h4 {
-    font-size: 35px;
-  }
-
-  #features .box-item .text p {
-    font-size: 18px;
-    line-height: normal;
-    margin: 0px;
-  }
-
-  #features .botonadd:hover {
-    font-size: 22px;
-  }
-
   #features .botonadd {
-    font-size: 20px;
+    position: relative;
     top: 52px;
     left: 32%;
   }
-
-  #steps h2 {
-    font-size: 35px;
-  }
-
-  #steps h2 span {
-    font-size: 35px;
-  }
-
-
   .col-sm-4 h3 a {
-    padding: 0px;
-    font-size: 30px;
+    font-size: 17px;
   }
-
-  .col-sm-4 h3 a {
-    line-height: normal;
-  }
-
   #steps p {
-    font-size: 16px;
-    margin: 0px;
+    font-size: 12px;
+    line-height: 20px;
   }
-
+  #steps h2 {
+    font-size: 37px;
+  }
+  #steps h2 span {
+    font-size: 44px;
+  }
   #steps .botonadd {
-    font-size: 20px;
-    top: 52px;
-    left: 32%;
+    font-size: 17px;
+    position: relative;
+    top: 8px;
+    left: 33%;
   }
-
-  #steps .botonadd:hover {
-    font-size: 22px;
-  }
-
-  #plan .contenido_plan h2 {
-    font-size: 35px;
-  }
-  #plan .contenido_plan p {
-    line-height: 18px;
-    font-size: 20px;
-  }
-
-  .titulo-faq {
-    font-size: 50px;
-  }
-  .detail {
-    width: 100%;
-  }
-
-  .cta-text {
-    padding-left: 35px;
-    bottom: 20px;
-  }
-
-  .footer-logo img {
-    max-width: 300px;
-  }
-
-  .footer-text p {
-    font-size: 18px;
-    line-height: normal;
-  }
-
-  .footer-social-icon span {
-    font-size: 25px;
-  }
-
-  .footer-widget-heading h3 {
-    font-size: 25px;
-    font-weight: 700;
-    font-family: "Poppins", sans-serif;
-  }
-
-  footer .botonadd {
-    font-size: 20px;
-  }
-  .copyright-text p {
-    font-size: 18px;
-  }
-  .footer-menu li a {
-    font-size: 16px;
-    left: 200px;
+  /* RESPONSIVE CONTACTO 768px */
+  .conversar i.fas {
+    position: relative;
+    left: 0px;
+    top: 30px;
   }
 }
-/* ####################            RESOLUCION 801 ########################### */
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width: 801px) {
-
-  .header .menu-icon .navicon {
-    background: #fff;
-    display: block;
-    height: 3px;
-    position: relative;
-    bottom: -37px;
-    left: -15px;
-    transition: background 0.2s ease-out;
-    width: 26px;
-  }
-  
   .header li {
     float: left;
   }
@@ -2740,21 +2231,19 @@ input[type="submit"]:hover {
   .header .menu-icon {
     display: none;
   }
-
-
-  .header ul {
-    margin-right: 0px;
-    font-size: 13px;
-  }
-
-
-  /* Codigo despues del NAV */
   .logox {
     display: block;
     float: left;
-    width: 13%;
+    width: 8%;
     height: 100%;
     padding: 10px 20px;
+  }
+  .header li a {
+    display: block;
+    padding: 22px;
+    border-right: 2px solid rgb(129 50 233);
+    text-decoration: none;
+    font-size: 19px;
   }
   .titulo_nav {
     font-family: Cano;
@@ -2787,72 +2276,78 @@ input[type="submit"]:hover {
     color: #ffffff;
     position: absolute;
     bottom: -115px;
-    left: 40%;
+    left: 44%;
     letter-spacing: 1px;
   }
   .bounce {
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
     position: absolute;
-    left: 47%;
-    bottom: -100%;
+    left: 48%;
+    bottom: -92%;
+    font-weight: 900;
+    font-size: 6rem;
   }
   .introduccion_1 {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 600;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     position: absolute;
-    top: 30%;
+    top: 33%;
     left: 63%;
     transform: translate(-50%, -50%);
     word-spacing: 3px;
     letter-spacing: 3px;
-    line-height: normal;
+    line-height: 46px;
   }
   .introduccion_2 {
-    font-size: 24px;
+    font-size: 30px;
+    --font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: 600;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     position: absolute;
-    top: 40%;
+    top: 49%;
     left: 62%;
     transform: translate(-136%, -70%);
     word-spacing: 4px;
     letter-spacing: 1px;
-    line-height: normal;    
+    line-height: 63px;
   }
-
-  #features h2 {
-    font-size: 35px;
-    line-height: normal;
+  .our-service-sass .service-block .title a {
+    font-size: 27px;
   }
   #features .show-box img {
-    width: 70%;
+    width: 100%;
     position: relative;
-    transform: translate(14%, -5%);
+    left: -105px;
+    top: 125px;
   }
-  #features .box-item .text h4 {
-    font-size: 35px;
-  }
-
   #features .botonadd {
     font-size: 16px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    position: relative;
     top: 60px;
-    left: 35%;
-    
+    left: 535px;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    /* padding: 2rem 6rem; */
   }
-
-  #steps h2 {
-    font-size: 35px;
-  }
-
-  .col-sm-4 h3 a {
-    line-height: normal;
-  }
-
   #steps .botonadd {
-    font-size: 20px;
+    font-size: 16px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    position: relative;
     top: 5px;
-    left: 35%;
+    left: 542px;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 25px;
   }
   #steps .container {
     padding-right: 40px;
@@ -2863,63 +2358,27 @@ input[type="submit"]:hover {
     margin-top: auto;
   }
   #steps .img-step img {
-    visibility: hidden;
+    visibility: visible;
+  }
+  #steps h2 {
+    font-size: 43px;
+  }
+  #steps p {
+    color: #fc95ed;
+    font-size: 15.5px;
+  }
+  .col-sm-4 h3 a {
+    font-size: 28px;
   }
   #plan .contenido_plan h2 {
     font-size: 40px;
     font-weight: 600;
-    letter-spacing: 1px;
-  }
-  #plan .contenido_plan p {
-    line-height: 1;
-    font-size: 20px;
+    letter-spacing: 3px;
+    text-align: inherit;
   }
   #plan .img-plan img {
-    left: 30%;
     visibility: visible;
   }
-  .titulo-faq {
-    font-size: 50px;
-  }
-
-  #faq {
-    padding: 0px 0;
-  }
-
-  .cta-text {
-    padding-left: 35px;
-    bottom: 20px;
-  }
-
-  .footer-logo img {
-    max-width: 300px;
-  }
-  .footer-text p {
-    font-size: 18px;
-    line-height: normal;
-  }
-  .footer-social-icon span {
-    font-size: 25px;
-  }
-
-  .footer-widget-heading h3 {
-    font-size: 25px;
-    font-weight: 700;
-    font-family: "Poppins", sans-serif;
-  }
-
-  footer .botonadd {
-    font-size: 20px;
-  }
-
-  .copyright-text p {
-    font-size: 18px;
-  }
-  .footer-menu li a {
-    font-size: 16px;
-    left: 200px;
-  }
-
   .tarjeta {
     box-shadow: 0 4px 15px 0 rgb(255 0 200 / 70%);
     max-width: 300px;
@@ -2961,376 +2420,8 @@ input[type="submit"]:hover {
 }
 /* big landscape tablets, laptops, and desktops */
 @media (min-width: 1025px) {
-
-  .header .menu-icon .navicon {
-    background: #fff;
-    display: block;
-    height: 3px;
-    position: relative;
-    bottom: -37px;
-    left: -15px;
-    transition: background 0.2s ease-out;
-    width: 26px;
-  }
-  
-  .header li {
-    float: left;
-  }
-  .header li a {
-    padding: 20px 30px;
-  }
-  .header .menu {
-    clear: none;
-    float: right;
-    max-height: none;
-  }
-  .header .menu-icon {
-    display: none;
-  }
-
-
-  .header ul {
-    margin-right: 0px;
-    font-size: 19px;
-  }
-
-  /* Codigo despues del NAV */
-
-
-  .logox {
-    display: block;
-    float: left;
-    width: 11%;
-    height: 100%;
-    padding: 10px 24px;
-  }
-  .titulo_nav {
-    font-size: 160px;
-  }
-  .covertext {
-    position: absolute;
-    top: 200px;
-    left: 0px;
-    right: 0px;
-  }
-  .subtitle {
-    font-size: 50px;
-  }
-  
-  .explore .btn-lg {
-    font-family: "Jost", sans-serif;
-    border-radius: 49px;
-    padding: 15px 25px;
-    font-size: 30px;
-    bottom: -80px;
-    left: 40%;
-
-  }
-
-  .bounce {
-    position: absolute;
-    left: 46%;
-    bottom: -55%;
-  }
-
-  .introduccion_1 {
-    font-size: 30px;
-    font-weight: 600;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    position: absolute;
-    top: 26%;
-    left: 63%;
-    transform: translate(-50%, -50%);
-    word-spacing: 3px;
-    letter-spacing: 3px;
-    line-height: normal;
-  }
-
-  .logo img {
-    width: 350px;
-  }
-
-  .our-service-sass .main-title {
-    font-size: 26px;
-  }
-
-  .service-block .icon-img {
-    width: 200px;
-    left: 350px;
-  }
-
-  .our-service-sass .service-block .title a {
-    font-size: 36px;
-    line-height: 10px;
-  }
-
-  .our-service-sass .service-block p {
-    font-size: 20px;
-    margin: 0px;
-    line-height: normal;
-  }
-
-  .introduccion_2 {
-    font-size: 28px;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    position: absolute;
-    top: 36%;
-    left: 62%;
-    transform: translate(-136%, -70%);
-    word-spacing: 1px;
-    letter-spacing: 1px;
-    line-height: normal;
-  }
-
-  #features h2 {
-    font-size: 35px;
-    line-height: normal;
-  }
-
-  #features h2 span {
-    font-size: 35px;
-  }
-
-  #features .box-item .text h4 {
-    font-size: 35px;
-  }
-
-  #features .box-item .text p {
-    font-size: 18px;
-    line-height: normal;
-    margin: 0px;
-  }
-
-  #features .show-box img {
-    width: 70%;
-    position: relative;
-    transform: translate(14%, -5%);
-  }
-
-  #features .botonadd {
-    font-size: 20px;
-    top: 52px;
-    left: 36%;
-  }
-
-  #steps h2 {
-    font-size: 40px;
-  }
-
-  #steps h2 span {
-    font-size: 40px;
-  }
-
-  .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
-    padding-right: 0px;
-    line-height: normal;
-    padding-left: 0px;
-  }
-
-  i.far {
-    top: 0px;
-  }
-
-  i.fas {
-    top: 0px;
-  }
-
-  #steps p {
-    font-size: 20px;
-    margin: 0px;
-  }
-
-  #steps .botonadd {
-    font-size: 22px;
-    top: 52px;
-    left: 38%;
-  }
-
-  #plan .contenido_plan h2 {
-    font-size: 40px;
-    font-weight: 600;
-    letter-spacing: 1px;
-  }
-
-
-  #plan .img-plan img {
-    left: 30%;
-    visibility: hidden;
-  }
-
-  .tarjeta {
-    box-shadow: 0 4px 15px 0 rgb(255 0 200 / 70%);
-    max-width: 300px;
-    margin: auto;
-    padding: 26px 11px 10px;
-    text-align: center;
-    position: relative;
-    transform: translate(0%, 20%);
-  }
-  
-  .titulo-faq {
-    font-size: 55px;
-  }
-
-  .cta-text {
-    padding-left: 15px;
-    display: inline-block;
-    position: relative;
-    bottom: 30px;
-    left: 0;
-  }
-
-  .footer-logo img {
-    max-width: 350px;
-  }
-
-  .footer-text p {
-    font-size: 20px;
-    line-height: normal;
-  }
-
-  .footer-social-icon span {
-    font-size: 28px;
-  }
-  .footer-widget-heading h3 {
-    font-size: 27px;
-    font-weight: 700;
-    font-family: "Poppins", sans-serif;
-  }
-
-  footer .botonadd {
-    font-size: 22px;
-  }
-
-  .copyright-text p {
-    font-size: 18px;
-  }
-
-  .footer-menu li a {
-    font-size: 16px;
-    left: 300px;
-  }
 }
 /* hi-res laptops and desktops */
 @media (min-width: 1281px) {
-  .header .menu-icon .navicon {
-    background: #fff;
-    display: block;
-    height: 3px;
-    position: relative;
-    bottom: -37px;
-    left: -15px;
-    transition: background 0.2s ease-out;
-    width: 26px;
-  }
-
-  .header {
-    height: 12%;
-  }
-  
-  
-  .header li {
-    float: left;
-  }
-  .header li a {
-    padding: 20px 30px;
-  }
-  .header .menu {
-    clear: none;
-    float: right;
-    max-height: none;
-  }
-  .header .menu-icon {
-    display: none;
-  }
-
-
-  .header ul {
-    margin-right: 0px;
-    font-size: 25px;
-  }
-
-  /* Codigo despues del NAV */
-
-
-  .logox {
-    display: block;
-    float: left;
-    width: 9%;
-    height: 100%;
-    padding: 10px 24px;
-  }
-
-  .titulo_nav {
-    font-size: 180px;
-  }
-
-  .subtitle {
-    font-size: 55px;
-  }
-
-
-  .explore .btn-lg {
-    font-family: "Jost", sans-serif;
-    border-radius: 49px;
-    padding: 15px 25px;
-    font-size: 30px;
-    bottom: -80px;
-    left: 43%;
-  }
-
-  .bounce {
-    position: absolute;
-    left: 48%;
-    bottom: -55%;
-  }
-  
-  .introduccion_1 {
-    font-size: 30px;
-    font-weight: 600;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    position: absolute;
-    top: 20%;
-    left: 63%;
-    transform: translate(-50%, -50%);
-    word-spacing: 3px;
-    letter-spacing: 3px;
-    line-height: normal;
-  }
-
-  .bg-shape {
-    width: 85px;
-  }
-
-  .logo img {
-    width: 380px;
-  }
-  .our-service-sass .main-title {
-    font-size: 28px;
-  }
-
-  .service-block .icon-img {
-    width: 175px;
-    left: 100px;
-  }
-  
-  .introduccion_2 {
-    font-size: 30px;
-    --font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
-    font-weight: 600;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    position: absolute;
-    top: 49%;
-    left: 62%;
-    transform: translate(-136%, -70%);
-    word-spacing: 4px;
-    letter-spacing: 1px;
-    line-height: 63px;
-  }
 }
 /* ######################################## FIN RESPONSIVE ######################################## */
