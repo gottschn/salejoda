@@ -314,18 +314,36 @@ i.far {
     background-size: cover; /* To make the background image looks good */
   }
 }
+
+/* Imágenes con webp carousel */
+
+.webp .carousel .background.a {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/carousel/bar.webp");
+}
+
+.webp .carousel .background.b {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/carousel/boliche.webp");
+}
+
+.webp .carousel .background.c {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/carousel/imagen3.webp");
+}
+
 /* Imágen 1 carousel */
-.carousel .background.a {
+.no-webp .carousel .background.a {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/carousel/bar.jpg");
 }
 /* Imágen 2 carousel */
-.carousel .background.b {
+.no-webp .carousel .background.b {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/carousel/boliche.jpg");
 }
 /* Imágen 3 carousel */
-.carousel .background.c {
+.no-webp .carousel .background.c {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/carousel/imagen3.jpg");
 }
@@ -1472,7 +1490,12 @@ i.far {
 /* ######################################## INICIO DE FAQ ######################################## */
 
 /* Fondo de imágen */
-.fondo_lindo {
+
+.webp .fondo_lindo {
+  background-image: url(../images/fondo_lindo2.webp);
+}
+
+.no-webp .fondo_lindo {
   background-image: url(../images/fondo_lindo2.png);
   background-size: cover;
   background-position: center;
