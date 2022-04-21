@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,236 +8,259 @@
     <title>SaleJoda - Contacto</title>
 
     <!-- ÍCONO -->
-  <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
-  <!-- API MAPA -->
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
 
-  <!-- ÍCONOS -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-  <!-- FUENTE -->
-  <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Jost&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+    <!-- ÍCONOS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <!-- FUENTE -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Alegreya&family=Jost&display=swap"
+        crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Jost&display=swap" rel="stylesheet">
+
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+
     <!----------------------------------------- INICIO DE NAVBAR ---------------------------------------------->
-<header class="header">
-    <a href="./index.html" class="logox"><img src="./images/logosj.png" alt=""></a>
-    <input class="menu-btn" type="checkbox" id="menu-btn" />
-    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-    <ul class="menu">
-      <li><a href="#">Contacto</a></li>
-      <li><a href="https://salejodav2.netlify.app/" target="_blank">Consumidor</a></li>
-      <li><a href="https://sale-joda.web.app/#/register">COMENZAR GRATIS</a></li>
-      <li><a href="https://sale-joda.web.app/#/login">Iniciar sesión</a></li>
-    </ul>
-  </header>
-  <!----------------------------------------- FIN DE NAVBAR ---------------------------------------------->
+    <header class="header">
+        <a href="./index.html" class="logox"><img src="./images/logosj.png" alt=""></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="#">Contacto</a></li>
+            <li><a href="https://salejodav2.netlify.app/" target="_blank">Consumidor</a></li>
+            <li><a href="https://sale-joda.web.app/#/register">COMENZAR GRATIS</a></li>
+            <li><a href="https://sale-joda.web.app/#/login">Iniciar sesión</a></li>
+        </ul>
+    </header>
+    <!----------------------------------------- FIN DE NAVBAR ---------------------------------------------->
 
-<main>
-  <section id="img_contacto">
-    <div class="container">
-        
-            <div class="centrado"><h1 class="contacto_titulo">Contacto</h1></div>
-            <div class="centrado_subtitulo"><h4 class="contacto_subtitulo">No dude en contactarnos</h4></div>
-        
-    </div>
-</section>
 
-<section id="mapa">
-    <div class="embed-container">
-    <iframe class="iframe-responsivo" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113929.00193548428!2d-65.28576750167471!3d-26.831003504391276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94223792d6c56903%3A0xf88d5b92b5c56527!2sSan%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1643586688854!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy"></iframe>
-    </div>
-</section>
-
-<section id="contacto">
-    <div class="container_contact">
-        <div class="contacto_txt">
-          <h2>Contáctanos</h2>
-          <p>Por cualquier duda que Ud. tenga, por favor, llene el siguiente formulario:</p>
-        </div>
-        <div class="row_contact">
-          <div class="column">
-            <img class="ilustracion_contacto" draggable="false" src="./images/contact_us.svg">
-            <a class="conversar" href=""><i class="fas fa-comment-dots"></i><p> Chatea ahora mismo con nosotros</p></a>
-            <p>Presiona para abrir una ventana de chat.</p>
-          </div>
-          <div class="column">
-            <form name="formulario-contacto" netlify>
-              <label for="name">Nombre</label>
-              <input required type="text" id="nombre" name="nombre" placeholder="Escriba su nombre">
-              <label for="apellido">Apellido</label>
-              <input type="text" id="apellido" name="apellido" placeholder="Escriba su apellido">
-              <label for="email">Correo electrónico</label>
-              <input type="text" id="email" name="email" required placeholder="Coloque su e-mail">
-              <label for="telefono">Teléfono</label>
-              <input type="text" id="telefono" name="telefono" placeholder="Coloque su número de celular">
-              <label for="provincia">Provincia</label>
-              <select id="provincia" name="provincia">
-                <option value="Buenos_Aires">Buenos Aires</option>
-                <option value="Catamarca">Catamarca</option>
-                <option value="Chaco">Chaco</option>
-                <option value="Chubut">Chubut</option>
-                <option value="Cordoba">Córdoba</option>
-                <option value="Corrientes">Corrientes</option>
-                <option value="Entre_Rios">Entre Ríos</option>
-                <option value="Formosa">Formosa</option>
-                <option value="Jujuy">Jujuy</option>
-                <option value="La_Pampa">La Pampa</option>
-                <option value="La_Rioja">La Rioja</option>
-                <option value="Mendoza">Mendoza</option>
-                <option value="Misiones">Misiones</option>
-                <option value="Neuquen">Neuquén</option>
-                <option value="Rio_Negro">Río Negro</option>
-                <option value="Salta">Salta</option>
-                <option value="San_Juan">San Juan</option>
-                <option value="San_Luis">San Luis</option>
-                <option value="Santa_Cruz">Santa Cruz</option>
-                <option value="Santa_Fe">Santa Fe</option>
-                <option value="Santiago_del_Estero">Santiago del Estero</option>
-                <option value="Tierra_del_Fuego">Tierra del Fuego</option>
-                <option value="Tucuman">Tucumán</option>
-              </select>
-              <label for="message">Mensaje</label>
-              <textarea id="message" name="message" placeholder="Escriba su consulta por aquí y le responderemos a la brevedad..." style="height:170px"></textarea>
-              <input id="enviarCorreo" type="submit" value="Enviar">
-            </form>
-          </div>
-        </div>
-      </div>
-</section>
-
-</main>
-<script>
-    const btnEnvio = document.getElementById('enviarCorreo')
-    btnEnvio.addEventListener('click', function(e){
-        e.preventDefault();
-        const nombre = document.getElementById('nombre').value;
-        const apellido = document.getElementById('apellido').value;
-        const email = document.getElementById('email').value;
-        const telefono = document.getElementById('telefono').value;
-        const provincia = document.getElementById('provincia').value;
-        const message = document.getElementById('message').value;
-        window.location.href = `mailto:salejodaar@gmail.com?subject=SaleJoda - Contacto
-        &body=Nombre%3A%20 ${nombre}%0AApellido%3A%20 ${apellido}%0ACorreo%3A%20 ${email}%0ATel%C3%A9fono%3A%20 ${telefono}%0AProvincia%3A%20 ${provincia}%0AMensaje%3A%20 ${message}`;
-    });
-</script>
-<!----------------------------------------- INICIO DEL FOOTER/PIE DE PÁGINA ---------------------------------------->
-
-<footer class="footer-section">
-    <div class="container">
-        <div class="footer-cta pt-5 pb-5">
-          <div class="row-footer">
-            <div class="row">
-                <div class="col-xl-4 col-md-4 mb-30">
-                    <div class="single-cta">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div class="cta-text">
-                            <h4>Encuentranos</h4>
-                            <span><a href="" target="_blank">San Miguel de Tucumán, Tucumán, Argentina.</a></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-4 mb-30">
-                    <div class="single-cta">
-                        <i class="fas fa-phone"></i>
-                        <div class="cta-text">
-                            <h4>Contáctanos</h4>
-                            <span><a href="tel:3813571422">+54 3815214536</a></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-4 mb-30">
-                    <div class="single-cta">
-                        <i class="far fa-envelope-open"></i>
-                        <div class="cta-text">
-                            <h4>Correo electrónico</h4>
-                            <span><a href="mailto:salejodaar@gmail.com" target="_blank">salejodaar@gmail.com</a></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="footer-content pt-5 pb-5">
-            <div class="row">
-                <div class="col-xl-4 col-lg-4 mb-50">
-                    <div class="footer-widget">
-                        <div class="footer-logo">
-                            <a href="#"><img draggable="false" src="./images/logosj_texto.png" class="img-fluid" alt=""></a>
-                        </div>
-                        <div class="footer-text">
-                            <p>Somos la primer plataforma en digitalizar las salidas nocturnas, elegí a dónde salir,
-                             en cualquier lugar, en cualquier momento. SaleJoda: la solución a tus noches.</p>
-                        </div>
-                        <div class="footer-social-icon">
-                            <span>Nuestras redes sociales</span>
-                            <a href="https://www.instagram.com/sale.joda/" target="_blank"><i class="fab fa-instagram instagram-bg"></i></a>
-                            <a href="https://www.facebook.com/salejodaAR" target="_blank"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                            <!-- <a href="#"><i class="fab fa-twitter twitter-bg"></i></a> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                    <div class="footer-widget">
-                        <div class="footer-widget-heading">
-                            <h3>Más sobre SaleJoda</h3>
-                        </div>
-                        <ul>
-                            <li><a href="https://sale-joda.web.app/#/login">Ingresar a tu cuenta</a></li>
-                            <li><a href="#">SaleJoda para usuarios</a></li>
-                            <li><a href="#">Contacto</a></li>
-                            <li><a>Nosotros</a></li>
-                            <li><a href="#">SaleJoda App Android</a></li>
-                            <li><a href="#">SaleJoda App iOS</a></li>
-                            <li><a>Blog</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
-                    <div class="footer-widget">
-                        <div class="footer-widget-heading">
-                            <h3>¿Estás interesad@?</h3>
-                        </div>
-                        <div class="registrarme-footer">
-                            <a href="https://sale-joda.web.app/#/" class="botonadd">¡Registrarme gratis!</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="copyright-area">
+    <section id="img_contacto">
         <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-lg-6 text-center text-lg-left">
-                    <div class="copyright-text">
-                        <p>Copyright &copy; 2022-2023 - SaleJoda. Todos los derechos reservados</p>
+
+            <div class="centrado">
+                <h1 class="contacto_titulo">Contacto</h1>
+            </div>
+            <div class="centrado_subtitulo">
+                <h4 class="contacto_subtitulo">No dude en contactarnos</h4>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="mapa">
+        <div class="embed-container">
+            <iframe class="iframe-responsivo"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113929.00193548428!2d-65.28576750167471!3d-26.831003504391276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94223792d6c56903%3A0xf88d5b92b5c56527!2sSan%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1643586688854!5m2!1ses-419!2sar"
+                allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="container_contact">
+            <div class="contacto_txt">
+                <h2>Contáctanos</h2>
+                <p>Por cualquier duda que Ud. tenga, por favor, llene el siguiente formulario:</p>
+            </div>
+            <div class="row_contact">
+                <div class="column">
+                    <img class="ilustracion_contacto" draggable="false" src="./images/contact_us.svg">
+                    <a class="conversar" href=""><i class="fas fa-comment-dots"></i>
+                        <p> Chatea ahora mismo con nosotros</p>
+                    </a>
+                    <p>Presiona para abrir una ventana de chat.</p>
+                </div>
+                <div class="column">
+                    <form id="formulario_contacto">
+                        <label for="nombre">Nombre</label>
+                        <input required type="text" id="nombre" name="nombre" placeholder="Escriba su nombre">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" id="apellido" name="apellido" placeholder="Escriba su apellido">
+                        <label for="email">Correo electrónico</label>
+                        <input type="text" id="email" name="email" required placeholder="Coloque su e-mail">
+                        <label for="telefono">Teléfono</label>
+                        <input type="text" id="telefono" name="telefono" placeholder="Coloque su número de celular">
+                        <label for="provincia">Provincia</label>
+                        <select id="provincia" name="provincia">
+                            <option disabled selected value="select_province">Seleccione una provincia</option>
+                            <option value="Buenos_Aires">Buenos Aires</option>
+                            <option value="Catamarca">Catamarca</option>
+                            <option value="Chaco">Chaco</option>
+                            <option value="Chubut">Chubut</option>
+                            <option value="Cordoba">Córdoba</option>
+                            <option value="Corrientes">Corrientes</option>
+                            <option value="Entre_Rios">Entre Ríos</option>
+                            <option value="Formosa">Formosa</option>
+                            <option value="Jujuy">Jujuy</option>
+                            <option value="La_Pampa">La Pampa</option>
+                            <option value="La_Rioja">La Rioja</option>
+                            <option value="Mendoza">Mendoza</option>
+                            <option value="Misiones">Misiones</option>
+                            <option value="Neuquen">Neuquén</option>
+                            <option value="Rio_Negro">Río Negro</option>
+                            <option value="Salta">Salta</option>
+                            <option value="San_Juan">San Juan</option>
+                            <option value="San_Luis">San Luis</option>
+                            <option value="Santa_Cruz">Santa Cruz</option>
+                            <option value="Santa_Fe">Santa Fe</option>
+                            <option value="Santiago_del_Estero">Santiago del Estero</option>
+                            <option value="Tierra_del_Fuego">Tierra del Fuego</option>
+                            <option value="Tucuman">Tucumán</option>
+                        </select>
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message"
+                            placeholder="Escriba su consulta por aquí y le responderemos a la brevedad..."
+                            style="height:170px"></textarea>
+
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <script>
+        const btnEnvio = document.getElementById('enviarCorreo')    
+        btnEnvio.addEventListener('click', function (e) {
+            e.preventDefault();
+            const nombre = document.getElementById('nombre').value;
+            const apellido = document.getElementById('apellido').value;
+            const email = document.getElementById('email').value;
+            const telefono = document.getElementById('telefono').value;
+            const provincia = document.getElementById('provincia').value;
+            const message = document.getElementById('message').value;
+            window.location.href = `mailto:salejodaar@gmail.com?subject=SaleJoda - Contacto
+        &body=Nombre%3A%20 ${nombre}%0AApellido%3A%20 ${apellido}%0ACorreo%3A%20 ${email}%0ATel%C3%A9fono%3A%20 ${telefono}%0AProvincia%3A%20 ${provincia}%0AMensaje%3A%20 ${message}`;
+        });
+    </script> -->
+    <!----------------------------------------- INICIO DEL FOOTER/PIE DE PÁGINA ---------------------------------------->
+
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row-footer">
+                    <div class="row">
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="cta-text">
+                                    <h4>Encuentranos</h4>
+                                    <span><a href="" target="_blank">San Miguel de Tucumán, Tucumán,
+                                            Argentina.</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-phone"></i>
+                                <div class="cta-text">
+                                    <h4>Contáctanos</h4>
+                                    <span><a href="tel:3815214536">+54 3815214536</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="far fa-envelope-open"></i>
+                                <div class="cta-text">
+                                    <h4>Correo electrónico</h4>
+                                    <span><a href="mailto:salejodaar@gmail.com"
+                                            target="_blank">salejodaar@gmail.com</a></span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                    <div class="footer-menu">
-                        <ul>
-                            <li><a href="#">Términos y condiciones</a></li>
-                            <li><a href="#">Política y privacidad</a></li>
-                        </ul>
+            </div>
+
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="#"><img draggable="false" src="./images/logosj_texto.png" class="img-fluid"
+                                        alt=""></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>Somos la primer plataforma en digitalizar las salidas nocturnas, elegí a dónde salir,
+                                    en cualquier lugar, en cualquier momento. SaleJoda: la solución a tus noches.</p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Nuestras redes sociales</span>
+                                <a href="https://www.instagram.com/sale.joda/" target="_blank"><i
+                                        class="fab fa-instagram instagram-bg"></i></a>
+                                <a href="https://www.facebook.com/salejodaAR" target="_blank"><i
+                                        class="fab fa-facebook-f facebook-bg"></i></a>
+                                <!-- <a href="#"><i class="fab fa-twitter twitter-bg"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Más sobre SaleJoda</h3>
+                            </div>
+                            <ul>
+                                <li><a href="https://sale-joda.web.app/#/login">Ingresar a tu cuenta</a></li>
+                                <li><a href="#">SaleJoda para usuarios</a></li>
+                                <li><a href="#">Contacto</a></li>
+                                <li><a>Nosotros</a></li>
+                                <li><a href="#">SaleJoda App Android</a></li>
+                                <li><a href="#">SaleJoda App iOS</a></li>
+                                <li><a>Blog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>¿Estás interesad@?</h3>
+                            </div>
+                            <div class="registrarme-footer">
+                                <a href="https://sale-joda.web.app/#/" class="botonadd">¡Registrarme gratis!</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-  </footer>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2022-2023 - SaleJoda. Todos los derechos reservados</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">Términos y condiciones</a></li>
+                                <li><a href="#">Política y privacidad</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-  
-  <!----------------------------------------- FIN DEL FOOTER/PIE DE PÁGINA ------------------------------------------->
 
-  <!----------------------------------------- LINKS JQUERY-BOOTSTRAP ---------------------------------------------->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
-  
-  <script  src="./app.js"></script>
+    <!----------------------------------------- FIN DEL FOOTER/PIE DE PÁGINA ------------------------------------------->
+
+    <!----------------------------------------- LINKS JQUERY-BOOTSTRAP ---------------------------------------------->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+    <script src="./js/contacto.js"></script>
+
 </body>
+
 </html>

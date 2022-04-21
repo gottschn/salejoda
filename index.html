@@ -1,41 +1,56 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
-  <title>SaleJoda - Boliches y Bares digitales: La solución a tus noches </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <!-- ÍCONO -->
+  <title>SaleJoda - Boliches y Bares digitales</title>
+  <meta name="description" content="SaleJoda - Boliches y Bares digitales: La solución a tus noches">
+
+  <!-- ÍCONO de SJ -->
   <link rel="shortcut icon" href="favicon.ico">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+  <!-- Prefetch: sirve para recargar una página que nosotros sepamos que el usuario iría primero o la más importante-->
+  <link rel="prefetch" href="contacto.html" as="document">
+
+  <!-- Preload = para cargar rápidamente los archivos que necesitemos que carguen al ingresar la pág. -->
+
   <!-- FUENTE -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Alegreya&family=Jost&display=swap"
+    crossorigin="crossorigin" as="font">
   <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Jost&display=swap" rel="stylesheet">
+
+
+  <link rel="preload" href="css/style.css" as="style">
   <link rel="stylesheet" href="css/style.css">
 
+
+
 </head>
+
 <body>
 
-<!----------------------------------------- INICIO DE NAVBAR ---------------------------------------------->
+  <!----------------------------------------- INICIO DE NAVBAR ---------------------------------------------->
 
 
-<header class="header">
-  <a href="#" class="logox"><img src="./images/logosj.png" alt=""></a>
-  <input class="menu-btn" type="checkbox" id="menu-btn" />
-  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-  <ul class="menu">
-    <li><a href="./contacto.html">Contacto</a></li>
-    <li><a href="https://salejodav2.netlify.app/" target="_blank">Consumidor</a></li>
-    <li><a href="https://sale-joda.web.app/#/register">COMENZAR GRATIS</a></li>
-    <li><a href="https://sale-joda.web.app/#/login">Iniciar sesión</a></li>
-  </ul>
-</header>
-<!----------------------------------------- FIN DE NAVBAR ---------------------------------------------->
+  <header class="header">
+    <a href="#" class="logox"><img src="./images/logosj.png" alt="Logo de SaleJoda"></a>
 
-<!----------------------------------------- INICIO DE CAROUSEL ---------------------------------------------->
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="./contacto.html">Contacto</a></li>
+      <li><a href="https://salejodav2.netlify.app/" target="_blank">Consumidor</a></li>
+      <li><a href="https://app.salejoda.com/#/register">COMENZAR GRATIS</a></li>
+      <li><a href="https://app.salejoda.com/">Iniciar sesión</a></li>
+    </ul>
+  </header>
+  <!----------------------------------------- FIN DE NAVBAR ---------------------------------------------->
+
+  <!----------------------------------------- INICIO DE CAROUSEL ---------------------------------------------->
   <div id="myCarousel" class="carousel carousel-fade slide" data-ride="carousel" data-interval="3000">
     <div class="carousel-inner" role="listbox">
       <div class="item active background a"></div>
@@ -45,465 +60,528 @@
   </div>
   <!----------------------------------------- FIN DE CAROUSEL ---------------------------------------------->
   <div class="container-fluid">
-  <div class="covertext">
-    <div class="col-lg-10" style="float:none; margin:0 auto;">
-      <h1 class="titulo_nav">Sale Joda</h1>
-      <h3 class="subtitle">La solución a tus noches</h3>
-    </div>
+    <div class="covertext">
+      <div class="col-lg-10" style="float:none; margin:0 auto;">
+        <h1 class="titulo_nav">Sale Joda</h1>
+        <h3 class="subtitle">La solución a tus noches</h3>
+      </div>
 
-    <!-- BOTÓN VER MÁS E ICONO ANIMADO -->
-    
+      <!-- BOTÓN VER MÁS E ICONO ANIMADO -->
+
       <div class="col-xs-12 explore">
         <a href="#plataforma"><button type="button" class="btn btn-lg explorebtn">VER MÁS</button>
       </div>
       <i class="fa fa-chevron-down fa-3x bounce"></i>
       </a>
     </div>
-</div>
-<!---------------------------------###### INICIO DE LA WEB [PRINCIPAL] ######----------------------------------------->
-<main>
-<!-- SEPARADOR 1 -->
-<section id="plataforma">
-<div class="contenedor">
-    <img draggable="false" src="./images/separadores/separador1_sombra_modificado.png" alt="">
-    <div class="introduccion_1">La plataforma más completa para digitalizar tu <br><span>bar</span> o <span>boliche</span></div>
-</div>
-</section>
-
-
-
-<!----------------------------------------- INICIO DE SERVICIOS ---------------------------------------------->
-<section id="servicios">
-  <div class="icon-box hide-pr text-center">
-    <img draggable="false" src="./images/logosj.png" alt="" class="bg-shape">
   </div>
-  
-  <div class="logo text-center">
-    <img draggable="false" src="./images/sjtexto.png" alt="">
-  </div>
+  <!---------------------------------###### INICIO DE LA WEB [PRINCIPAL] ######----------------------------------------->
+  <main>
+    <!-- SEPARADOR 1 -->
+    <section id="plataforma">
+      <div class="contenedor">
+        <picture>
+          <source loading="lazy" srcset="./images/separadores/separador1_sombra_modificado.webp" type="image/webp">
+          <img loading="lazy" draggable="false" src="./images/separadores/separador1_sombra_modificado.png"
+            alt="La plataforma más completa para digitalizar tu bar o boliche">
+        </picture>
+        <div class="introduccion_1">La plataforma más completa para digitalizar tu <br><span>bar</span> o
+          <span>boliche</span>
+        </div>
+      </div>
+    </section>
 
-<div class="our-service-sass hide-pr show-pr">
-  <div class="container">
-    <div class="theme-title-one text-center">
-      
-      
 
-      <h2 class="main-title">Somos la primer plataforma que digitaliza las salidas nocturnas</h2>
+
+    <!----------------------------------------- INICIO DE SERVICIOS ---------------------------------------------->
+    <section id="servicios">
+      <div class="icon-box hide-pr text-center">
+        <img loading="lazy" draggable="false" src="./images/logosj.png" alt="Logo SJ Efecto" class="bg-shape">
+      </div>
+
+      <div class="logo text-center">
+        <img loading="lazy" draggable="false" src="./images/sjtexto.png" alt="Logo SJ-Texto">
+      </div>
+
+      <div class="our-service-sass hide-pr show-pr">
+        <div class="container">
+          <div class="theme-title-one text-center">
+
+
+
+            <h2 class="main-title">Somos la primer plataforma que digitaliza las salidas nocturnas</h2>
+          </div>
+
+          <div class="inner-wrapper">
+            <div class="row">
+              <div class="col-lg-4 single-block aos-init aos-animate" data-aos="fade-up">
+                <div class="service-block">
+                  <div class="hover-content"></div>
+                  <h5 class="title"><a href="#servicios">Chateá con tus clientes &amp; ahorrales tiempo</a></h5>
+                  <p>No más redes sociales para contestar preguntas frecuentes, como una reserva de mesa, una promoción,
+                    etc.</p>
+                  <a href="#servicios" class="detail-button"><img class="icon-img" loading="lazy" draggable="false"
+                      src="./images/servicios/intro1.png" alt="Onboarding 1"></a>
+                </div> <!-- /.service-block -->
+              </div> <!-- /.single-block -->
+              <div class="col-lg-4 single-block aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                <div class="service-block">
+                  <span class="snow-dot"></span>
+                  <span class="snow-dot"></span>
+                  <span class="snow-dot"></span>
+                  <span class="snow-dot"></span>
+                  <span class="snow-dot"></span>
+                  <span class="snow-dot"></span>
+                  <span class="snow-dot"></span>
+                  <div class="hover-content"></div>
+                  <h5 class="title"><a href="#servicios">Manejá los eventos de tu bar o boliche</a></h5>
+                  <p>Publicá el evento o fiesta que se aproxima y empezá a publicitarlo en SaleJoda para llegar a más
+                    personas.</p>
+                  <a href="#servicios" class="detail-button"><img class="icon-img" loading="lazy" draggable="false"
+                      src="./images/servicios/intro2.png" alt="Onboarding 2"></a>
+                </div> <!-- /.service-block -->
+              </div> <!-- /.single-block -->
+              <div class="col-lg-4 single-block aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
+                <div class="service-block">
+                  <span class="snow-dot"></span>
+                  <span class="snow-dot"></span>
+                  <span class="snow-dot"></span>
+                  <span class="snow-dot"></span>
+                  <span class="snow-dot"></span>
+                  <span class="snow-dot"></span>
+                  <span class="snow-dot"></span>
+                  <div class="hover-content"></div>
+                  <h5 class="title"><a href="#servicios">Personalizá tu negocio con fotos reales</a></h5>
+                  <p>Subí fotos de tus productos como los mejores tragos, el plato más vendido o las imágenes de tu
+                    último evento.</p>
+                  <a href="#servicios" class="detail-button"><img class="icon-img" loading="lazy" draggable="false"
+                      src="./images/servicios/intro3.png" alt="Onboarding 3"></a>
+                </div> <!-- /.service-block -->
+              </div> <!-- /.single-block -->
+            </div> <!-- /.row -->
+          </div> <!-- /.inner-wrapper -->
+        </div> <!-- /.container -->
+      </div>
+    </section>
+
+    <!----------------------------------------- FIN DE SERVICIOS ---------------------------------------------->
+
+
+    <!-- SEPARADOR 2 -->
+
+    <div class="contenedor">
+      <picture>
+        <source loading="lazy" srcset="./images/separadores/separador2_sombra_modificado.webp" type="image/webp">
+        <img loading="lazy" draggable="false" src="./images/separadores/separador2_sombra_modificado.png"
+          alt="Brindá la mejor experiencia de compra y enamora a tus clientes">
+      </picture>
+      <div class="introduccion_2">Brindá la mejor experiencia de compra y <span>enamora</span> a tus clientes</div>
     </div>
-    
-    <div class="inner-wrapper">
-      <div class="row">
-        <div class="col-lg-4 single-block aos-init aos-animate" data-aos="fade-up">
-          <div class="service-block">
-            <div class="hover-content"></div>
-            <h5 class="title"><a>Chateá con tus clientes &amp; ahorrales tiempo</a></h5>
-            <p>No más redes sociales para contestar preguntas frecuentes, como una reserva de mesa, una promoción, etc.</p>
-            <a class="detail-button"><img class="icon-img" draggable="false" src="./images/servicios/intro1.png"></a>
-          </div> <!-- /.service-block -->
-        </div> <!-- /.single-block -->
-        <div class="col-lg-4 single-block aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
-          <div class="service-block">
-            <span class="snow-dot"></span>
-            <span class="snow-dot"></span>
-            <span class="snow-dot"></span>
-            <span class="snow-dot"></span>
-            <span class="snow-dot"></span>
-            <span class="snow-dot"></span>
-            <span class="snow-dot"></span>
-            <div class="hover-content"></div>
-            <h5 class="title"><a>Manejá los eventos de tu bar o boliche</a></h5>
-            <p>Publicá el evento o fiesta que se aproxima y empezá a publicitarlo en SaleJoda para llegar a más personas.</p>
-            <a class="detail-button"><img class="icon-img" draggable="false" src="./images/servicios/intro2.png" width="100%"></a>
-          </div> <!-- /.service-block -->
-        </div> <!-- /.single-block -->
-        <div class="col-lg-4 single-block aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
-          <div class="service-block">
-            <span class="snow-dot"></span>
-            <span class="snow-dot"></span>
-            <span class="snow-dot"></span>
-            <span class="snow-dot"></span>
-            <span class="snow-dot"></span>
-            <span class="snow-dot"></span>
-            <span class="snow-dot"></span>
-            <div class="hover-content"></div>
-            <h5 class="title"><a>Personalizá tu negocio con fotos reales</a></h5>
-            <p>Subí fotos de tus productos como los mejores tragos, el plato más vendido o las imágenes de tu último evento.</p>
-            <a class="detail-button"><img class="icon-img" draggable="false" src="./images/servicios/intro3.png" width="100%"></a>
-          </div> <!-- /.service-block -->
-        </div> <!-- /.single-block -->
-      </div> <!-- /.row -->
-    </div> <!-- /.inner-wrapper -->
-  </div> <!-- /.container -->
-</div>
-</section>
 
-<!----------------------------------------- FIN DE SERVICIOS ---------------------------------------------->
+    <!----------------------------------------- INICIO DE CARACTERÍSTICAS/FEATURES ---------------------------------------------->
 
-
-<!-- SEPARADOR 2 -->
-
-<div class="contenedor">
-  <img draggable="false" src="./images/separadores/separador2_sombra_modificado.png" alt="">
-  <div class="introduccion_2">Brindá la mejor experiencia de compra y <span>enamora</span>  a tus clientes</div>
-</div>
-
-<!----------------------------------------- INICIO DE CARACTERÍSTICAS/FEATURES ---------------------------------------------->
-
-<section id="features" class="section-padding">
-  <div class="container">
-      <div class="section-header text-center">
-          <h2 class="section-title wow fadeInDown">Tu propio sistema de reservas y ventas en tu <span>bar</span> o <span>boliche</span></h2>
+    <section id="features" class="section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title wow fadeInDown">Tu propio sistema de reservas y ventas en tu <span>bar</span> o
+            <span>boliche</span>
+          </h2>
           <div class="shape wow fadeInDown"></div>
-      </div>
-      <div class="row">
+        </div>
+        <div class="row">
           <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-              <div class="content-left">
-                  <div class="box-item animated wow fadeInLeft">
-                      <span class="icon">
-<i class="fas fa-tablet-alt"></i>
-</span>
-                      <div class="text">
-                          <h4>Pedidos desde la mesa</h4>
-                          <p>No más esperas para pedir desde la mesa o caja. Atendé a muchos más clientes con los mismos recursos.</p>
-                      </div>
-                  </div>
-                  <div class="box-item animated wow fadeInLeft" data-wow-delay="0.6s">
-                      <span class="icon">
-<i class="fas fa-money-check-alt"></i>
-</span>
-                      <div class="text">
-                          <h4>La forma más fácil de pagar</h4>
-                          <p>Con SaleJoda tus clientes tendrán múltiples opciones de pagos con distintos tipos de tarjetas.</p>
-                      </div>
-                  </div>
-                  <div class="box-item animated wow fadeInLeft" data-wow-delay="0.9s">
-                      <span class="icon">
-<i class="fas fa-qrcode"></i>
-</span>
-                      <div class="text">
-                          <h4>Carta digital</h4>
-                          <p>No pierdas la oportunidad de lucir tus productos con el mejor menú digital QR interactivo.</p>
-                      </div>
-                  </div>
+            <div class="content-left">
+              <div class="box-item animated wow fadeInLeft">
+                <span class="icon">
+                  <i class="fas fa-tablet-alt"></i>
+                </span>
+                <div class="text">
+                  <h4>Pedidos desde la mesa</h4>
+                  <p>No más esperas para pedir desde la mesa o caja. Atendé a muchos más clientes con los mismos
+                    recursos.</p>
+                </div>
               </div>
+              <div class="box-item animated wow fadeInLeft" data-wow-delay="0.6s">
+                <span class="icon">
+                  <i class="fas fa-money-check-alt"></i>
+                </span>
+                <div class="text">
+                  <h4>La forma más fácil de pagar</h4>
+                  <p>Con SaleJoda tus clientes tendrán múltiples opciones de pagos con distintos tipos de tarjetas.</p>
+                </div>
+              </div>
+              <div class="box-item animated wow fadeInLeft" data-wow-delay="0.9s">
+                <span class="icon">
+                  <i class="fas fa-qrcode"></i>
+                </span>
+                <div class="text">
+                  <h4>Carta digital</h4>
+                  <p>No pierdas la oportunidad de lucir tus productos con el mejor menú digital QR interactivo.</p>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-              <div class="show-box animated wow fadeInUp">
-                  <img src="./images/mockup1.png" alt="">
-              </div>
+            <div class="show-box animated wow fadeInUp">
+              <img loading="lazy" src="./images/mockup1.png"
+                alt="Mockup de tu propio sistema de reservas y ventas en tu bar o boliche">
+            </div>
           </div>
           <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-              <div class="content-right">
-                  <div class="box-item animated wow fadeInRight">
-                      <span class="icon">
-<i class="fas fa-user-tie"></i>
-</span>
-                      <div class="text">
-                          <h4>Empleados agilizados</h4>
-                          <p>¡Crea un perfil para cada empleado y organízalos! No más colapso de mozos y cajeros.</p>
-                      </div>
-                  </div>
-                  <div class="box-item animated wow fadeInRight" data-wow-delay="0.6s">
-                      <span class="icon">
-<i class="fas fa-layer-group"></i>
-</span>
-                      <div class="text">
-                          <h4>Estadísticas</h4>
-                          <p>Monitorea todo lo que vendiste en tu negocio: ventas mensuales, quincenales, anuales, etc.</p>
-                      </div>
-                  </div>
-                  <div class="box-item animated wow fadeInRight" data-wow-delay="0.9s">
-                      <span class="icon">
-<i class="fas fa-level-up-alt"></i>
-</span>
-                      <div class="text">
-                          <h4>Hazte conocido</h4>
-                          <p>Logra un mayor alcance en menor tiempo. ¿Qué esperas para posicionar tu negocio?</p>
-                      </div>
-                  </div>
+            <div class="content-right">
+              <div class="box-item animated wow fadeInRight">
+                <span class="icon">
+                  <i class="fas fa-user-tie"></i>
+                </span>
+                <div class="text">
+                  <h4>Empleados agilizados</h4>
+                  <p>¡Crea un perfil para cada empleado y organízalos! No más colapso de mozos y cajeros.</p>
+                </div>
               </div>
-          </div>
-      </div>
-  </div>
-  <a href="#" class="botonadd">¿Hablamos?</a>
-</section>
-<!------------------------------------------ FIN DE CARACTERÍSTICAS/FEATURES ----------------------------------------->
-
-
-<!-- SEPARADOR 3 -->
-
-<div class="contenedor">
-  <img draggable="false" src="./images/separadores/separador_3.svg" alt="">
-</div>
-
-<!----------------------------------------- INICIO DE PASOS/STEPS ---------------------------------------------->
-<section id="steps">
-  <h2 class="text-center">Elegí estar del lado de quienes se <span>adaptan</span> y <span>crecen</span></h2>
-
-<div class="container mt-5">
-  <div class="row text-center">
-    <!-- PASO 1 -->
-    <div class="col-sm-4">
-      <i class="fas fa-running"></i><h3><a><span>1</span> Creá tu cuenta</h3></a>
-      <p>Elegí el plan SaleFree en tu negocio sin compromiso. </p>
-      <p>¡Sí, podés comenzar gratis!</p>
-    </div>
-    <!-- PASO 2 -->
-    <div class="col-sm-4">
-      <i class="fas fa-utensils"></i><h3><a><span>2</span> Cargá tus productos</h3></a>
-      <p>Configurá SaleJoda para adaptar tu</p>
-      <p>negocio al siglo XXI, la era digital.</p>
-    </div>
-    <!-- PASO 3 -->
-    <div class="col-sm-4">
-      <i class="far fa-check-circle"></i><h3><a><span>3</span> Comenzá a vender más</h3></a>        
-      <p>Te regalamos las gráficas para las mesas, pósters y</p>
-      <p>banners en el formato que más te guste.</p>
-    </div>
-  </div>
-</div> 
-
-<!-- IMÁGEN ILUSTRATIVA -->
-
-<div class="img-step">
-  <img draggable="false" src="./images/pasos.png" alt="">
-</div>
-
-<!-- BOTÓN COMENZAR AHORA -->
-
-<a href="https://sale-joda.web.app/#/register" class="botonadd">¡COMENZAR AHORA!</a>
-</section>
-
-<!----------------------------------------- FIN DE PASOS/STEPS ---------------------------------------------->
-
-<!-- SEPARADOR 4 -->
-
-<div class="contenedor">
-  <img draggable="false" src="./images/separadores/separador_4.svg" alt="">
-</div>
-
-
-<!----------------------------------------- INICIO DE PLAN FREE ---------------------------------------------->
-<section id="plan">
-  <div class="container">
-    <div class="contenido_plan">
-      <h2>Tenemos un plan <span>GRATUITO</span> para vos</h2><br>
-        <p><span>La carta digital es sólo el inicio hacia la digitalización</span>. Tenela con nuestro <span>SALE FREE</span>, 
-        <p>incluyendo además un chat para comunicarte con tus clientes.</p>
-        <p>Cuando estés listo podrás descubrir nuestras soluciones avanzadas como: 
-        <p>Pedidos desde la mesa, escaneo QR en la barra para controlar la multitud en tu boliche,</p>
-        <p>hasta Ventas de entradas desde la app, ¡comenzá hoy!</p>
-</div>
-
-<!-- TARJETA DE PLAN FREE -->
-<div class="tarjeta">
-
-  <img class="gratis" src="./images/mockup1.png" alt="">
-
-  <h1>PLAN GRATIS</h1>
-  <p class="price">$ 0,00</p>
-  <p>por un mes.</p>
-  <a href="https://sale-joda.web.app/#/register" class="botonadd">Adherí tu negocio hoy</a>
-</div>
-
-</div>
-
-<!-- IMÁGEN ILUSTRATIVA DE PLAN -->
-
- <div class="img-plan">
-    <img draggable="false" src="./images/plan.png" alt="">
-  </div> 
-
-</section>
-
-<!----------------------------------------- FIN DE PLAN FREE ---------------------------------------------->
-
-<!---------------------------------------- INICIO DE PREGUNTAS FRECUENTES/FAQ ------------------------------------->
-
-<section id="faq" class="fondo_lindo">
-
-  <h2 class="titulo-faq">Preguntas frecuentes - FAQ</h2><br><br>
-
-  <div style="visibility: hidden; position: absolute; width: 0px; height: 0px;">
-    <svg xmlns="http://www.w3.org/2000/svg">
-      <symbol viewBox="0 0 24 24" id="expand-more">
-        <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/><path d="M0 0h24v24H0z" fill="none"/>
-      </symbol>
-      <symbol viewBox="0 0 24 24" id="close">
-        <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/><path d="M0 0h24v24H0z" fill="none"/>
-      </symbol>
-    </svg>
-  </div>
-  
-  <!-- SECCIÓN 1 -->
-  <details class="detail"> <!--colocarle open si queremos dejarlo expandido por defecto-->
-    <summary>
-      <h4>¿Cómo funciona SaleJoda?</h4>  
-      <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
-      <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
-    </summary>
-    <p>Al registrarse en SJ, nos pondremos en contacto con Ud. para</p>
-    <p>corroborar datos y una vez dentro le otorgaremos un perfil "Administrador",</p>
-    <p>en el cual, tendrá el control total de su negocio: podrá crear perfiles a sus empleados, cargar la carta con sus respectivos productos y actualizarla fácilmente.</p>
-    <p>Desde cargar fotos de sus mejores productos, información básica, chatear con sus clientes, a subir el evento que se aproxima, manejar las reservas y las ventas de entradas.</p>
-  </details>
-
-  <!-- SECCIÓN 2 -->
-  <details class="detail">
-    <summary>
-      <h4>¿Puedo usarlo en una computadora?</h4>
-      <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
-      <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
-    </summary>
-    <p>Sí, SaleJoda es responsive, lo que significa que puede</p>
-    <p>controlar su negocio a través de una PC, tablet o celular.</p>
-  </details>
-  
-  <!-- SECCIÓN 3 -->
-  <details class="detail">
-    <summary>
-      <h4>¿Cuento con capacitación para usar SaleJoda?</h4>
-      <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
-      <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
-    </summary>
-    <p>Sí, le ofrecemos la posibilidad de tener una demo de la app, sin costo.</p>
-    <p>Nuestros asesores comerciales le realizarán la presentación del sistema en su domicilio o virtualmente.</p>
-    <p>De esta manera, podrá conocer los beneficios para crecer en su negocio y adaptarse a la era digital.</p>
-    <p>También, si lo prefiere, podemos ocuparnos de cargar todos sus datos de su bar o boliche. Dedíquese a su negocio, nosotros hacemos el trabajo por usted.</p>
-  </details>
-
-  <!-- SECCIÓN 4 -->
-  <details class="detail">
-    <summary>
-      <h4>¿Cuento con soporte?</h4>
-      <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
-      <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
-    </summary>
-    <p>Sí, usted puede comunicarse con nosotros a través de</p>
-    <p>nuestro WhatsApp o vía e-mail y le responderemos a la brevedad.</p>
-    <p>Contamos con un soporte 24/7 para brindarle la mejor atención.</p>
-  </details>
-
-</section>
-
-<!----------------------------------------- FIN DE PREGUNTAS FRECUENTES/FAQ ---------------------------------------->
-
-</main>
-<!----------------------------------------- FIN DEL CONTENIDO [PRINCIPAL] ------------------------------------------->
-
-<!----------------------------------------- INICIO DEL FOOTER/PIE DE PÁGINA ---------------------------------------->
-
-<footer class="footer-section">
-  <div class="container">
-      <div class="footer-cta pt-5 pb-5">
-        <div class="row-footer">
-          <div class="row">
-              <div class="col-xl-4 col-md-4 mb-30">
-                  <div class="single-cta">
-                      <i class="fas fa-map-marker-alt"></i>
-                      <div class="cta-text">
-                          <h4>Encuentranos</h4>
-                          <span><a href="" target="_blank">San Miguel de Tucumán, Tucumán, Argentina.</a></span>
-                      </div>
-                  </div>
+              <div class="box-item animated wow fadeInRight" data-wow-delay="0.6s">
+                <span class="icon">
+                  <i class="fas fa-layer-group"></i>
+                </span>
+                <div class="text">
+                  <h4>Estadísticas</h4>
+                  <p>Monitorea todo lo que vendiste en tu negocio: ventas mensuales, quincenales, anuales, etc.</p>
+                </div>
               </div>
-              <div class="col-xl-4 col-md-4 mb-30">
-                  <div class="single-cta">
-                      <i class="fas fa-phone"></i>
-                      <div class="cta-text">
-                          <h4>Contáctanos</h4>
-                          <span><a href="tel:3813571422">+54 3815214536</a></span>
-                      </div>
-                  </div>
+              <div class="box-item animated wow fadeInRight" data-wow-delay="0.9s">
+                <span class="icon">
+                  <i class="fas fa-level-up-alt"></i>
+                </span>
+                <div class="text">
+                  <h4>Hazte conocido</h4>
+                  <p>Logra un mayor alcance en menor tiempo. ¿Qué esperas para posicionar tu negocio?</p>
+                </div>
               </div>
-              <div class="col-xl-4 col-md-4 mb-30">
-                  <div class="single-cta">
-                      <i class="far fa-envelope-open"></i>
-                      <div class="cta-text">
-                          <h4>Correo electrónico</h4>
-                          <span><a href="mailto:salejodaar@gmail.com" target="_blank">salejodaar@gmail.com</a></span>
-                      </div>
-                  </div>
-              </div>
+            </div>
           </div>
         </div>
       </div>
-      
-      <div class="footer-content pt-5 pb-5">
-          <div class="row">
-              <div class="col-xl-4 col-lg-4 mb-50">
-                  <div class="footer-widget">
-                      <div class="footer-logo">
-                          <a href="#"><img draggable="false" src="./images/logosj_texto.png" class="img-fluid" alt=""></a>
-                      </div>
-                      <div class="footer-text">
-                          <p>Somos la primer plataforma en digitalizar las salidas nocturnas, elegí a dónde salir,
-                           en cualquier lugar, en cualquier momento. SaleJoda: la solución a tus noches.</p>
-                      </div>
-                      <div class="footer-social-icon">
-                          <span>Nuestras redes sociales</span>
-                          <a href="https://www.instagram.com/sale.joda/" target="_blank"><i class="fab fa-instagram instagram-bg"></i></a>
-                          <a href="https://www.facebook.com/salejodaAR" target="_blank"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                          <!-- <a href="#"><i class="fab fa-twitter twitter-bg"></i></a> -->
-                      </div>
-                  </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                  <div class="footer-widget">
-                      <div class="footer-widget-heading">
-                          <h3>Más sobre SaleJoda</h3>
-                      </div>
-                      <ul>
-                          <li><a href="https://sale-joda.web.app/#/login">Ingresar a tu cuenta</a></li>
-                          <li><a href="#">SaleJoda para usuarios</a></li>
-                          <li><a href="#">Contacto</a></li>
-                          <li><a>Nosotros</a></li>
-                          <li><a href="#">SaleJoda App Android</a></li>
-                          <li><a href="#">SaleJoda App iOS</a></li>
-                          <li><a>Blog</a></li>
-                      </ul>
-                  </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
-                  <div class="footer-widget">
-                      <div class="footer-widget-heading">
-                          <h3>¿Estás interesad@?</h3>
-                      </div>
-                      <div class="registrarme-footer">
-                          <a href="https://sale-joda.web.app/#/" class="botonadd">¡Registrarme gratis!</a>
-                      </div>
-                  </div>
-              </div>
+      <a href="#" class="botonadd">¿Hablamos?</a>
+    </section>
+    <!------------------------------------------ FIN DE CARACTERÍSTICAS/FEATURES ----------------------------------------->
+
+
+    <!-- SEPARADOR 3 -->
+
+    <div class="contenedor">
+      <picture>
+        <source loading="lazy" srcset="./images/separadores/separador_3.webp" type="image/webp">
+        <img loading="lazy" draggable="false" src="./images/separadores/separador_3.svg" alt="Separador 3">
+      </picture>
+    </div>
+
+    <!----------------------------------------- INICIO DE PASOS/STEPS ---------------------------------------------->
+    <section id="steps">
+      <h2 class="text-center">Elegí estar del lado de quienes se <span>adaptan</span> y <span>crecen</span></h2>
+
+      <div class="container mt-5">
+        <div class="row text-center">
+          <!-- PASO 1 -->
+          <div class="col-sm-4">
+            <i class="fas fa-running"></i>
+            <h3><a href="#steps"><span>1</span> Creá tu cuenta</h3></a>
+            <p>Elegí el plan SaleFree en tu negocio sin compromiso. </p>
+            <p>¡Sí, podés comenzar gratis!</p>
           </div>
+          <!-- PASO 2 -->
+          <div class="col-sm-4">
+            <i class="fas fa-utensils"></i>
+            <h3><a href="#steps"><span>2</span> Cargá tus productos</h3></a>
+            <p>Configurá SaleJoda para adaptar tu</p>
+            <p>negocio al siglo XXI, la era digital.</p>
+          </div>
+          <!-- PASO 3 -->
+          <div class="col-sm-4">
+            <i class="far fa-check-circle"></i>
+            <h3><a href="#steps"><span>3</span> Comenzá a vender más</h3></a>
+            <p>Te regalamos las gráficas para las mesas, pósters y</p>
+            <p>banners en el formato que más te guste.</p>
+          </div>
+        </div>
       </div>
-  </div>
-  <div class="copyright-area">
+
+      <!-- IMÁGEN ILUSTRATIVA -->
+
+      <div class="img-step">
+        <picture>
+          <source loading="lazy" srcset="./images/pasos.webp" type="image/webp">
+          <img loading="lazy" draggable="false" src="./images/pasos.png" alt="Imagen ilustrativa de steps-pasos">
+        </picture>
+      </div>
+
+      <!-- BOTÓN COMENZAR AHORA -->
+
+      <a href="https://app.salejoda.com/#/register" class="botonadd">¡COMENZAR AHORA!</a>
+    </section>
+
+    <!----------------------------------------- FIN DE PASOS/STEPS ---------------------------------------------->
+
+    <!-- SEPARADOR 4 -->
+
+    <div class="contenedor">
+      <picture>
+        <source loading="lazy" srcset="./images/separadores/separador_4.webp" type="image/webp">
+        <img loading="lazy" draggable="false" src="./images/separadores/separador_4.svg" alt="Separador 4">
+      </picture>
+    </div>
+
+
+    <!----------------------------------------- INICIO DE PLAN FREE ---------------------------------------------->
+    <section id="plan">
       <div class="container">
-          <div class="row">
-              <div class="col-xl-6 col-lg-6 text-center text-lg-left">
-                  <div class="copyright-text">
-                      <p>Copyright &copy; 2022-2023 - SaleJoda. Todos los derechos reservados</p>
-                  </div>
-              </div>
-              <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                  <div class="footer-menu">
-                      <ul>
-                          <li><a href="#">Términos y condiciones</a></li>
-                          <li><a href="#">Política y privacidad</a></li>
-                      </ul>
-                  </div>
-              </div>
-          </div>
+        <div class="contenido_plan">
+          <h2>Tenemos un plan <span>GRATUITO</span> para vos</h2><br>
+          <p><span>La carta digital es sólo el inicio hacia la digitalización</span>. Tenela con nuestro <span>SALE
+              FREE</span>,
+          <p>incluyendo además un chat para comunicarte con tus clientes.</p>
+          <p>Cuando estés listo podrás descubrir nuestras soluciones avanzadas como:
+          <p>Pedidos desde la mesa, escaneo QR en la barra para controlar la multitud en tu boliche,</p>
+          <p>hasta Ventas de entradas desde la app, ¡comenzá hoy!</p>
+        </div>
+
+        <!-- TARJETA DE PLAN FREE -->
+        <div class="tarjeta">
+
+          <img class="gratis" loading="lazy" src="./images/mockup1.png" alt="Plan gratis SJ">
+
+          <h2>PLAN GRATIS</h2>
+          <p class="price">$ 0,00</p>
+          <p>por dos meses.</p>
+          <a href="https://app.salejoda.com/#/register" class="botonadd">Adherí tu negocio hoy</a>
+        </div>
+
       </div>
-  </div>
-</footer>
-<!----------------------------------------- FIN DEL FOOTER/PIE DE PÁGINA ------------------------------------------->
+
+      <!-- IMÁGEN ILUSTRATIVA DE PLAN -->
+
+      <div class="img-plan">
+        <img loading="lazy" draggable="false" src="./images/plan.png" alt="Imagen ilustrativa de plan free">
+      </div>
+
+    </section>
+
+    <!----------------------------------------- FIN DE PLAN FREE ---------------------------------------------->
+
+    <!---------------------------------------- INICIO DE PREGUNTAS FRECUENTES/FAQ ------------------------------------->
+
+    <section id="faq" class="fondo_lindo">
+
+      <h2 class="titulo-faq">Preguntas frecuentes - FAQ</h2><br><br>
+
+      <div style="visibility: hidden; position: absolute; width: 0px; height: 0px;">
+        <svg xmlns="http://www.w3.org/2000/svg">
+          <symbol viewBox="0 0 24 24" id="expand-more">
+            <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />
+            <path d="M0 0h24v24H0z" fill="none" />
+          </symbol>
+          <symbol viewBox="0 0 24 24" id="close">
+            <path
+              d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+            <path d="M0 0h24v24H0z" fill="none" />
+          </symbol>
+        </svg>
+      </div>
+
+      <!-- SECCIÓN 1 -->
+      <details>
+        <!--colocarle open si queremos dejarlo expandido por defecto-->
+        <summary>
+          <h4>¿Cómo funciona SaleJoda?</h4>
+          <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" />
+          </svg>
+          <svg class="control-icon control-icon-close" width="24" height="24" role="presentation">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" />
+          </svg>
+        </summary>
+        <p>Al registrarse en SJ, nos pondremos en contacto con Ud. para</p>
+        <p>corroborar datos y una vez dentro le otorgaremos un perfil "Administrador",</p>
+        <p>en el cual, tendrá el control total de su negocio: podrá crear perfiles a sus empleados, cargar la carta con
+          sus respectivos productos y actualizarla fácilmente.</p>
+        <p>Desde cargar fotos de sus mejores productos, información básica, chatear con sus clientes, a subir el evento
+          que se aproxima, manejar las reservas y las ventas de entradas.</p>
+      </details>
+
+      <!-- SECCIÓN 2 -->
+      <details>
+        <summary>
+          <h4>¿Puedo usarlo en una computadora?</h4>
+          <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" />
+          </svg>
+          <svg class="control-icon control-icon-close" width="24" height="24" role="presentation">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" />
+          </svg>
+        </summary>
+        <p>Sí, SaleJoda es responsive, lo que significa que puede</p>
+        <p>controlar su negocio a través de una PC, tablet o celular.</p>
+      </details>
+
+      <!-- SECCIÓN 3 -->
+      <details>
+        <summary>
+          <h4>¿Cuento con capacitación para usar SaleJoda?</h4>
+          <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" />
+          </svg>
+          <svg class="control-icon control-icon-close" width="24" height="24" role="presentation">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" />
+          </svg>
+        </summary>
+        <p>Sí, le ofrecemos la posibilidad de tener una demo de la app, sin costo.</p>
+        <p>Nuestros asesores comerciales le realizarán la presentación del sistema en su domicilio o virtualmente.</p>
+        <p>De esta manera, podrá conocer los beneficios para crecer en su negocio y adaptarse a la era digital.</p>
+        <p>También, si lo prefiere, podemos ocuparnos de cargar todos sus datos de su bar o boliche. Dedíquese a su
+          negocio, nosotros hacemos el trabajo por usted.</p>
+      </details>
+
+      <!-- SECCIÓN 4 -->
+      <details>
+        <summary>
+          <h4>¿Cuento con soporte?</h4>
+          <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" />
+          </svg>
+          <svg class="control-icon control-icon-close" width="24" height="24" role="presentation">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" />
+          </svg>
+        </summary>
+        <p>Sí, usted puede comunicarse con nosotros a través de</p>
+        <p>nuestro WhatsApp o vía e-mail y le responderemos a la brevedad.</p>
+        <p>Contamos con un soporte 24/7 para brindarle la mejor atención.</p>
+      </details>
+
+    </section>
+
+    <!----------------------------------------- FIN DE PREGUNTAS FRECUENTES/FAQ ---------------------------------------->
+
+  </main>
+  <!----------------------------------------- FIN DEL CONTENIDO [PRINCIPAL] ------------------------------------------->
+
+  <!----------------------------------------- INICIO DEL FOOTER/PIE DE PÁGINA ---------------------------------------->
+
+  <footer class="footer-section">
+    <div class="container">
+      <div class="footer-cta pt-5 pb-5">
+        <div class="row-footer">
+          <div class="row">
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="cta-text">
+                  <h4>Encuentranos</h4>
+                  <span><a
+                      href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113929.00193548428!2d-65.28576750167471!3d-26.831003504391276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94223792d6c56903%3A0xf88d5b92b5c56527!2sSan%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1643586688854!5m2!1ses-419!2sar"
+                      target="_blank">San Miguel de Tucumán, Tucumán, Argentina.</a></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="fas fa-phone"></i>
+                <div class="cta-text">
+                  <h4>Contáctanos</h4>
+                  <span><a href="tel:3813571422">+54 3815214536</a></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="far fa-envelope-open"></i>
+                <div class="cta-text">
+                  <h4>Correo electrónico</h4>
+                  <span><a href="mailto:salejodaar@gmail.com" target="_blank">salejodaar@gmail.com</a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-content pt-5 pb-5">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 mb-50">
+            <div class="footer-widget">
+              <div class="footer-logo">
+                <a href="#"><img loading="lazy" draggable="false" src="./images/logosj_texto.png" class="img-fluid"
+                    alt="Logo de SaleJoda con texto"></a>
+              </div>
+              <div class="footer-text">
+                <p>Somos la primer plataforma en digitalizar las salidas nocturnas, elegí a dónde salir,
+                  en cualquier lugar, en cualquier momento. SaleJoda: la solución a tus noches.</p>
+              </div>
+              <div class="footer-social-icon">
+                <span>Nuestras redes sociales</span>
+                <a href="https://www.instagram.com/sale.joda/" target="_blank"><i
+                    class="fab fa-instagram instagram-bg"></i></a>
+                <a href="https://www.facebook.com/salejodaAR" target="_blank"><i
+                    class="fab fa-facebook-f facebook-bg"></i></a>
+                <!-- <a href="#"><i class="fab fa-twitter twitter-bg"></i></a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+            <div class="footer-widget">
+              <div class="footer-widget-heading">
+                <h3>Más sobre SaleJoda</h3>
+              </div>
+              <ul>
+                <li><a href="https://sale-joda.web.app/#/login">Ingresar a tu cuenta</a></li>
+                <li><a href="#">SaleJoda para usuarios</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">SaleJoda App Android</a></li>
+                <li><a href="#">SaleJoda App iOS</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+            <div class="footer-widget">
+              <div class="footer-widget-heading">
+                <h3>¿Estás interesad@?</h3>
+              </div>
+              <div class="registrarme-footer">
+                <a href="https://app.salejoda.com/#/register" class="botonadd">¡Registrarme gratis!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+            <div class="copyright-text">
+              <p>Copyright &copy; 2022-2023 - SaleJoda. Todos los derechos reservados</p>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+            <div class="footer-menu">
+              <ul>
+                <li><a href="#">Términos y condiciones</a></li>
+                <li><a href="#">Política y privacidad</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!----------------------------------------- FIN DEL FOOTER/PIE DE PÁGINA ------------------------------------------->
 
   <!----------------------------------------- LINKS JQUERY-BOOTSTRAP ---------------------------------------------->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
-  
-  <script  src="./app.js"></script>
+
+  <script src="js/app.js"></script>
+  <script src="js/modernizr.js"></script>
 
 </body>
+
 </html>
