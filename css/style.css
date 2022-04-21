@@ -2091,6 +2091,9 @@ input[type="submit"]:hover {
     display: inline-block;
   }
 
+
+  
+
 }
 
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
@@ -2364,6 +2367,11 @@ input[type="submit"]:hover {
     width: 100%;
     margin-top: 115px;
   }
+}
+
+
+@media (min-width: 480px){
+  
 }
 
 /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
@@ -2714,6 +2722,8 @@ input[type="submit"]:hover {
 /* ####################            RESOLUCION 801 ########################### */
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width: 801px) {
+ 
+ 
 
   .header .menu-icon .navicon {
     background: #fff;
@@ -2972,7 +2982,6 @@ input[type="submit"]:hover {
     transition: background 0.2s ease-out;
     width: 26px;
   }
-  
   .header li {
     float: left;
   }
@@ -3000,7 +3009,7 @@ input[type="submit"]:hover {
   .logox {
     display: block;
     float: left;
-    width: 11%;
+    width: 5%;
     height: 100%;
     padding: 10px 24px;
   }
@@ -3009,7 +3018,7 @@ input[type="submit"]:hover {
   }
   .covertext {
     position: absolute;
-    top: 200px;
+    top: 120px;
     left: 0px;
     right: 0px;
   }
@@ -3227,7 +3236,7 @@ input[type="submit"]:hover {
   }
 
   .header {
-    height: 12%;
+    height: 0%;
   }
   
   
@@ -3260,15 +3269,14 @@ input[type="submit"]:hover {
     float: left;
     width: 9%;
     height: 100%;
-    padding: 10px 24px;
   }
 
   .titulo_nav {
-    font-size: 180px;
+    font-size: 160px;
   }
 
   .subtitle {
-    font-size: 55px;
+    font-size: 52px;
   }
 
 
@@ -3276,7 +3284,7 @@ input[type="submit"]:hover {
     font-family: "Jost", sans-serif;
     border-radius: 49px;
     padding: 15px 25px;
-    font-size: 30px;
+    font-size: 28px;
     bottom: -80px;
     left: 43%;
   }
@@ -3302,11 +3310,11 @@ input[type="submit"]:hover {
   }
 
   .bg-shape {
-    width: 85px;
+    width: 90px;
   }
 
   .logo img {
-    width: 380px;
+    width: 400px;
   }
   .our-service-sass .main-title {
     font-size: 28px;
@@ -3325,12 +3333,16 @@ input[type="submit"]:hover {
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     position: absolute;
-    top: 49%;
+    top: 40%;
     left: 62%;
     transform: translate(-136%, -70%);
-    word-spacing: 4px;
     letter-spacing: 1px;
-    line-height: 63px;
+    line-height: 50px;
+  }
+
+  .our-service-sass .service-block .title a {
+    font-size: 38px;
+    line-height: 40px;
   }
 }
 /* ######################################## FIN RESPONSIVE ######################################## */
